@@ -1,14 +1,14 @@
 # Zaviya Loadout
 
-Zaviya Loadout is the app store. It installs emulators, PC game stores and apps
-for your chip, and adds your games to Steam. Open it from **Quick Access > Zaviya Loadout > Open
-Zaviya Loadout**.
+Zaviya Loadout is the built-in app store. It installs emulators, PC game stores
+and apps for the device's chip, and adds games to Steam. Open it from
+**Quick Access > Zaviya Loadout > Open Zaviya Loadout**.
 
 ## For You
 
-For You counts your games per system and shows which emulator to get for
-systems nothing plays yet. It also has the starter set for your chip and
-sets that only install what's missing:
+For You counts the games in the library per system and shows which emulator to
+install for systems nothing plays yet. It also offers the starter set for the
+chip, and sets that install only what is missing:
 
 - Classic consoles
 - Modern consoles
@@ -19,33 +19,15 @@ sets that only install what's missing:
 
 ## App pages
 
-Selecting an app opens its page with:
+Selecting an app opens its page, which shows:
 
-- what it plays, and how it runs on your chip
+- what the app plays, and how it runs on the chip
 - the BIOS and firmware files it still needs, and where they go
-- what's new in an available update
-- the space it takes, and Play, Update, Reset Settings and Remove
+- what changed in an available update
+- the space it takes, with Play, Update, Reset Settings and Remove
 
-## Add a game
+## Related pages
 
-**Mine > Add a game or app** puts a game or app in the Steam library:
-
-| File | How it runs |
-|---|---|
-| Windows `.exe` | Steam's Proton, set up on the shortcut |
-| Linux program or AppImage | directly |
-| Console game file | the matching emulator, installed first if needed |
-| Android `.apk`, `.apkm`, `.xapk`, `.apks` | installed into Android, with a Steam title |
-
-Artwork comes from the Steam store when the game is sold there. Added games
-are listed in **Mine**. You can play them there or take them out of Steam.
-
-## Game library
-
-| Folder | Contents |
-|---|---|
-| `Emulation/roms/<system>` | game files, one folder per system (`roms/ps2`, `roms/gba`) |
-| `Emulation/bios` | BIOS and firmware files |
-
-**Mine > Keep games on** moves the whole library between internal storage
-and the SD card, and points every emulator at the new location.
+- [Emulation](emulation.md) covers adding games, BIOS files and the game library.
+- [PC games](pc-games.md) covers Heroic and the PC game stores.
+- [Android apps](android-apps.md) covers the Play Store and app files.

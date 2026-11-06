@@ -1,4 +1,4 @@
-# Known Issues
+# Known issues
 
 ## All devices
 
@@ -16,5 +16,5 @@
 
 !!! note
 
-    Something not listed here? [Open an issue](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues)
-    with your device and the [debug logs](troubleshooting.md#debug-logs).
+    Not listed here? [Open an issue](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues)
+    with the device model and the [debug logs](troubleshooting.md#debug-logs).

@@ -1,4 +1,4 @@
-# Dual Screen
+# Dual screen
 
 On the AYN Thor and AYANEO Pocket DS, games run on the top screen. In Game Mode
 the bottom screen shows a launcher and a dashboard.
@@ -14,8 +14,8 @@ Themes: **Aura**, **Pulse**, **Gauges** and **Pure Black**.
 
 ## Lower Deck
 
-The **Lower Deck** plugin in Quick Access picks the theme, arranges the home
-screen and sets apps that open together with a game. Emulators that use two
+The **Lower Deck** plugin in Quick Access sets the theme, arranges the home
+screen and chooses apps that open together with a game. Emulators that use two
 screens (melonDS, Azahar) take over the bottom screen while they run.
 
 !!! tip
@@ -23,7 +23,7 @@ screens (melonDS, Azahar) take over the bottom screen while they run.
     Swipe up from the bottom edge, or hold the AYN button, to go back to the
     home page from anywhere.
 
-## Turning it off
+## Turning the bottom screen interface off
 
 Set `"enabled": false` in `~/.config/steamos-arm/bottom-screen.json` and
 return to Game Mode.

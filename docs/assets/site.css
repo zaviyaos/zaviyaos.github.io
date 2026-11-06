@@ -93,10 +93,21 @@
 .md-typeset .warn { color: var(--z-gold-light); }
 .md-typeset .muted { color: var(--z-muted); }
 
-/* admonitions */
-.md-typeset .admonition, .md-typeset details { border-width: 0 0 0 3px; border-radius: 8px; background: var(--z-surface);
-  box-shadow: none; font-size: .72rem; }
+/* admonitions: neutral by default, gold for warnings */
+.md-typeset .admonition, .md-typeset details { --z-adm: #8a8a93; border-width: 0 0 0 3px; border-color: var(--z-adm);
+  border-radius: 8px; background: var(--z-surface); box-shadow: none; font-size: .72rem; }
 .md-typeset .admonition-title, .md-typeset summary { background: transparent !important; font-weight: 600; }
+.md-typeset :is(.admonition, details):is(.warning, .danger, .caution, .failure, .bug) { --z-adm: var(--z-gold); }
+.md-typeset :is(.admonition, details):is(.note, .info, .tip, .question, .abstract, .success, .example, .quote,
+  .warning, .danger, .caution, .failure, .bug) { border-color: var(--z-adm); }
+.md-typeset :is(.admonition, details) > :is(.admonition-title, summary)::before,
+.md-typeset :is(.admonition, details) > summary::after { background-color: var(--z-adm); }
+.md-typeset .admonition.soft { border-width: 1px; border-color: var(--z-line); border-left: 2px solid rgba(201, 162, 77, .55);
+  background: transparent; font-size: .68rem; }
+.md-typeset .admonition.soft .admonition-title { color: var(--z-muted); font-weight: 500; }
+.md-typeset .admonition.soft > .admonition-title::before { background-color: rgba(201, 162, 77, .7); }
+.md-typeset .admonition.soft p { color: var(--z-muted); }
+.md-typeset .gold { color: var(--z-gold); }
 
 /* tables */
 .md-typeset__scrollwrap { margin: 1.1em 0; }

@@ -67,8 +67,13 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Downloads: downloads.md
+  - Install:
+      - Before you begin: getting-started/index.md
+      - Flash to a microSD card: getting-started/install.md
+      - Flash OpenABL: getting-started/abl.md
+      - Install to internal storage: getting-started/internal-storage.md
   - Devices:
-      - Supported Devices: devices/index.md
+      - Supported devices: devices/index.md
       - AYANEO: devices/ayaneo.md
       - AYANEO Pocket DMG: devices/pocket-dmg.md
       - AYN: devices/ayn.md
@@ -77,20 +82,21 @@ nav:
       - MANGMI: devices/mangmi.md
       - Retroid: devices/retroid.md
       - REDMAGIC: devices/redmagic.md
-  - Getting Started:
-      - Flash to a microSD Card: getting-started/install.md
-      - Flash OpenABL: getting-started/abl.md
-      - Install to Internal Storage: getting-started/internal-storage.md
   - Using Zaviya:
-      - Updates: using/updates.md
+      - Overview: using/index.md
       - Zaviya Loadout: using/loadout.md
-      - PC Games: using/pc-games.md
-      - Frame Generation: using/frame-generation.md
-      - Android Apps: using/android-apps.md
-      - Dual Screen: using/bottom-screen.md
+      - Emulation: using/emulation.md
+      - PC games: using/pc-games.md
+      - Android apps: using/android-apps.md
+      - Frame generation: using/frame-generation.md
+      - Dual screen: using/bottom-screen.md
       - Performance and SSH: using/tips.md
-  - Help:
-      - Known Issues: help/known-issues.md
-      - Troubleshooting: help/troubleshooting.md
+      - Updates: using/updates.md
+  - Compatibility: compatibility.md
+  - Troubleshooting:
+      - Common problems: help/troubleshooting.md
+      - Known issues: help/known-issues.md
       - FAQ: help/faq.md
-  - Support: support.md
+  - Project:
+      - About Zaviya: project/index.md
+      - Community and support: project/community.md

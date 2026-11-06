@@ -5,51 +5,58 @@
     OpenABL is for handhelds. Tablets don't use it, see the
     [Lenovo page](../devices/lenovo.md).
 
-[OpenABL](https://github.com/OpenHandheldCollective/OpenABL) is the boot menu
-you flash once. When the device powers on you pick Linux or Android, and Linux
-can start from the microSD card or from internal storage. Android stays on the
-device. It's made by the Open Handheld Collective and is GPL-3.0. Each Zaviya
-image includes the copy for its chip.
+!!! warning
+
+    This step replaces the device's bootloader. Flashing the ABL for the wrong
+    chip can leave the device unable to start. Use only the folder from the
+    image for the device, and back up the stock ABL first.
 
 !!! note
 
     Already on OpenABL 1.2 or older? It keeps working, leave it. Newer versions
-    don't start Zaviya's boot images, so flash the copy from the image if you're
-    on one of those.
+    don't start Zaviya's boot images, so flash the copy from the image if the
+    device is on one of those.
 
 ## Steps
 
-1. Flash the image to your microSD card, see [Flash to a microSD Card](install.md).
+1. Flash the image to a microSD card, see [Flash to a microSD card](install.md).
 
 2. Insert the card and boot into Android. Copy the `openabl` folder from the
    card's **BOOT** drive to the top of internal storage, so it is
-   `/sdcard/openabl`. Don't put it inside Download or another folder. The
+   `/sdcard/openabl`. Do not place it inside Download or another folder. The
    scripts only look there.
 
-3. Open your device's root script tool in Android settings.
+3. Open the device's root script tool in Android settings.
 
     !!! note
 
         The name depends on the manufacturer. Look for **Run script as Root**,
         **Root Script** or similar, usually in the device's own settings
         section. These tools don't show what a script prints, so check the
-        results yourself as described below.
+        results as described below.
 
-4. Run `backup_abl.sh` from the `openabl` folder. It saves your current ABL as
+4. Run `backup_abl.sh` from the `openabl` folder. It saves the current ABL as
    `abl_a.img` and `abl_b.img` in the same folder. Check that both files are
-   there and not 0 bytes, then copy them to your PC.
+   present and not 0 bytes, then copy them to a PC.
 
 5. Run `flash_abl.sh`. It writes OpenABL to both ABL slots.
 
     !!! warning
 
-        Flashing the ABL for the wrong chip can leave the device unable to start.
-        Only use the folder from the image for your device. Each image has the
-        ABL for its own chip only.
+        Each image contains the ABL for its own chip only. Never run the
+        scripts from another chip's image.
 
 6. Restart holding **Volume Down** to open the menu. Volume moves, Power
-   selects. Set **Device model** to your device, **Boot mode** to Linux, then
+   selects. Set **Device model** to the device, **Boot mode** to Linux, then
    **Start**.
+
+## About OpenABL
+
+[OpenABL](https://github.com/OpenHandheldCollective/OpenABL) is a boot menu that
+is flashed once. At power-on it selects Linux or Android, and Linux can start
+from the microSD card or from internal storage. Android stays on the device.
+OpenABL is made by the Open Handheld Collective and is GPL-3.0. Each Zaviya
+image includes the copy for its chip.
 
 ## Using the menu
 

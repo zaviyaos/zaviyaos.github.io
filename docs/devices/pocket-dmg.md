@@ -2,12 +2,12 @@
 
 Snapdragon 8 Gen 2. :material-check-circle:{ .ok } Tested.
 
-## Opening the ABL menu
+## Opening the OpenABL menu
 
 The Pocket DMG has no Volume Down key, so the usual step in
-[Flash to a microSD Card](../getting-started/install.md) doesn't work as written.
-Instead, restart while holding the button above the volume wheel to open the
-OpenABL menu.
+[Flash to a microSD card](../getting-started/install.md) does not apply.
+Restart while holding the button above the volume wheel to open the OpenABL
+menu.
 
 ## Notes
 

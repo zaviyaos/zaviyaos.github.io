@@ -1,10 +1,10 @@
 # Lenovo
 
-!!! info "Testing"
+!!! info "In testing"
 
-    The tablet builds are new and still in testing. They go out in the
-    [Discord](https://discord.gg/EP53nZYvg) first, so if you own one and want to
-    help, ask there for the test image.
+    The tablet builds are in testing and are distributed through the
+    [Discord](https://discord.gg/EP53nZYvg) first. Owners who want to take part
+    can ask there for the test image.
 
 | Device | Chip | Status | Notes |
 |---|---|---|---|
@@ -12,36 +12,40 @@
 | Lenovo Legion Y700 Gen 4 (TB322FC) | 8 Elite | In testing | Chinese model only |
 | Lenovo Legion Y700 Gen 5 (TB323FU) | 8 Elite Gen 5 | In testing | Runs from a microSD card, switched on from Android |
 
-## Install
+## Installation
 
-Tablets don't use OpenABL, that's for handhelds only. Each generation installs a
-bit differently:
+Tablets do not use OpenABL, which is for handhelds only. Each generation
+installs differently:
 
 - **Gen 3 and Gen 4** install to internal storage next to Android. The Gen 4 can
   also run from a microSD card.
-- **Gen 5** runs from a microSD card and is switched on from Android. It's in
-  early testing with only a few testers.
+- **Gen 5** runs from a microSD card and is switched on from Android. It is in
+  early testing with a small group of testers.
 
-Installing to internal storage replaces Android's user data.
+!!! warning
+
+    Installing to internal storage replaces Android's user data. Back up
+    Android data first.
 
 The earlier Gen 3 and Gen 4 test builds were started from a PC with
 `fastboot boot`, using the boot image in the `tablet` folder of the image
-(USB drive instead of a microSD card, unlocked bootloader needed). Ask in the
-Discord which way your build installs.
+(a USB drive instead of a microSD card, and an unlocked bootloader). Ask in the
+Discord which method applies to the build in use.
 
-There are no built-in controls, so use touch or a Bluetooth or USB controller.
+The tablets have no built-in controls. Use touch or a Bluetooth or USB
+controller.
 
-The Gen 4 copies the firmware it needs from the tablet's own Android, so don't
+The Gen 4 copies the firmware it needs from the tablet's own Android, so do not
 wipe Android before the first boot.
 
-## Which Gen 3 screen do I have?
+## Identifying the Gen 3 screen
 
-The Legion Y700 Gen 3 comes with a BOE or a CSOT screen. The boot menu has an
-entry for each, BOE first. If you get a black screen, restart and pick the
-other one. In Android you can check with `getprop ro.vendor.display.paneltype`
-over ADB. A value of `1` means BOE.
+The Legion Y700 Gen 3 ships with either a BOE or a CSOT screen. The boot menu has
+an entry for each, BOE first. A black screen means the other entry is needed:
+restart and select it. In Android, `getprop ro.vendor.display.paneltype` over ADB
+reports the panel, and a value of `1` means BOE.
 
-## USB drive not showing up?
+## USB drive not detected
 
-If you boot from a USB drive, the two ports share one USB controller. If the
-drive isn't detected, try the other port.
+When booting from a USB drive, the two ports share one USB controller. If the
+drive is not detected, use the other port.

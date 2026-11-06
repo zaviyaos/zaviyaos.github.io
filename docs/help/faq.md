@@ -1,15 +1,18 @@
 # FAQ
 
+Answers to common questions. More help is in [Troubleshooting](troubleshooting.md).
+
 ??? question "Is this an official SteamOS release?"
 
-    No. It's an independent community project. Report problems here, not to Steam
-    Support.
+    No. Zaviya is an independent community project. Report problems on
+    [GitHub](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues) or in the
+    [Discord](https://discord.gg/EP53nZYvg), not to Steam Support.
 
 ??? question "What is it based on?"
 
-    The SteamOS ARM image from Steam Frame. On top of that: frame generation,
-    Zaviya Loadout, which suggests apps from the games you have, and a launcher
-    for the second screen on dual screen devices.
+    The SteamOS ARM image from Steam Frame. On top of that Zaviya adds frame
+    generation, Zaviya Loadout (which suggests apps from the games in the
+    library) and a launcher for the second screen on dual screen devices.
 
 ??? question "What's in it?"
 
@@ -24,22 +27,24 @@
 
 ??? question "Do Windows games run?"
 
-    Many do, through FEX and ARM64 Proton.
-    Games with anti-cheat that doesn't support Linux won't run.
+    Many do, through FEX and ARM64 Proton. Games with anti-cheat that does not
+    support Linux do not run. See [Compatibility](../compatibility.md).
 
-??? question "How do I update?"
+??? question "How is Zaviya updated?"
 
     Through Steam: **Settings > System > Check for updates**. See
     [Updates](../using/updates.md).
 
-??? question "How do I go back to only Android?"
+??? question "How is a device returned to Android only?"
 
     Remove the microSD card. If it was installed to internal storage, choose
     **UNINSTALL CFW** in the OpenABL menu, or restore the saved partition table,
     see [Install to Internal Storage](../getting-started/internal-storage.md#giving-the-space-back-to-android).
 
-??? question "My device isn't listed"
+??? question "The device is not listed"
 
-    Every device needs its own hardware support. New ones get added over time.
-    Ask on
-    [GitHub issues](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues).
+    Every device needs its own hardware support, and new devices are added over
+    time. Request one on
+    [GitHub issues](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues). A
+    spare device sent for development is the fastest route, see
+    [Community](../project/community.md#send-a-device).
