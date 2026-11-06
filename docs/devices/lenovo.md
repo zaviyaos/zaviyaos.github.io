@@ -17,20 +17,18 @@
 Tablets do not use OpenABL, which is for handhelds only. Each generation
 installs differently:
 
-- **Gen 3 and Gen 4** install to internal storage next to Android. The Gen 4 can
-  also run from a microSD card.
-- **Gen 5** runs from a microSD card and is switched on from Android. It is in
-  early testing with a small group of testers.
+- **Gen 3** has no microSD slot. Flash the image to a USB drive, start it from a
+  PC with `fastboot boot` using the boot image in the drive's `tablet` folder,
+  then install to internal storage. This needs an unlocked bootloader.
+- **Gen 4** installs the same way, and can also run from a microSD card.
+- **Gen 5** runs from a microSD card and is switched on from Android. It can't be
+  installed to internal storage. It is in early testing with a small group of
+  testers.
 
 !!! warning
 
     Installing to internal storage replaces Android's user data. Back up
     Android data first.
-
-The earlier Gen 3 and Gen 4 test builds were started from a PC with
-`fastboot boot`, using the boot image in the `tablet` folder of the image
-(a USB drive instead of a microSD card, and an unlocked bootloader). Ask in the
-Discord which method applies to the build in use.
 
 The tablets have no built-in controls. Use touch or a Bluetooth or USB
 controller.

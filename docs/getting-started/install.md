@@ -1,8 +1,7 @@
 # Flash to a microSD card
 
 This guide installs Zaviya on a handheld and runs it from a microSD card.
-Android stays on the device and starts from the OpenABL menu. The KONKR Pocket
-FIT and AYANEO Pocket S2 can later
+Android stays on the device and starts from the OpenABL menu. The 8 Elite, 8 Gen 3 and 8 Gen 2 handhelds can later
 [install to internal storage](internal-storage.md).
 
 !!! info "Handhelds only"

@@ -31,7 +31,7 @@ the device. Android stays on the device throughout.
 2. [Flash OpenABL](abl.md). Back up the stock ABL, then install the boot menu.
    This is needed once per device.
 3. [Install to internal storage](internal-storage.md). Optional, and available on
-   the KONKR Pocket FIT and AYANEO Pocket S2 only. It boots without the card and
+   handhelds with 8 Elite, 8 Gen 3 and 8 Gen 2 chips. It boots without the card and
    erases Android's user data.
 
 ## What OpenABL does

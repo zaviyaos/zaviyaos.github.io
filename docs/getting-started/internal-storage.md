@@ -1,8 +1,8 @@
 # Install to internal storage
 
-The KONKR Pocket FIT and AYANEO Pocket S2 can install Zaviya to internal storage
-next to Android, so the device boots without the card. Other devices run from the
-microSD card.
+Zaviya can be installed to internal storage on handhelds with Snapdragon 8 Elite,
+8 Gen 3 and 8 Gen 2 chips, next to Android. Snapdragon 865 handhelds run from the
+microSD card only. The installer saves the old partition table first.
 
 !!! warning
 
