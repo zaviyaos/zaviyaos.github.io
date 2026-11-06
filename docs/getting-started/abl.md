@@ -1,16 +1,21 @@
 # Flash OpenABL
 
-[OpenABL](https://github.com/OpenHandheldCollective/OpenABL) replaces the part
-of the bootloader that only knows how to start Android. It starts Zaviya from
-the microSD card or internal storage, and you can still start Android from its
-menu. Every Zaviya image includes the right copy for its chip. OpenABL is made
-by the Open Handheld Collective and licensed under the GPL-3.0.
+!!! info "Handhelds only"
+
+    OpenABL is for handhelds. Tablets don't use it, see the
+    [Lenovo page](../devices/lenovo.md).
+
+[OpenABL](https://github.com/OpenHandheldCollective/OpenABL) is the boot menu
+you flash once. When the device powers on you pick Linux or Android, and Linux
+can start from the microSD card or from internal storage. Android stays on the
+device. It's made by the Open Handheld Collective and is GPL-3.0. Each Zaviya
+image includes the copy for its chip.
 
 !!! note
 
-    Already on OpenABL 1.2 or older? It keeps working, and you don't have to change
-    anything. If you're on a newer version, flash the copy from the image,
-    because newer versions don't start Zaviya's boot images.
+    Already on OpenABL 1.2 or older? It keeps working, leave it. Newer versions
+    don't start Zaviya's boot images, so flash the copy from the image if you're
+    on one of those.
 
 ## Steps
 

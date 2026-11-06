@@ -2,9 +2,8 @@
 
 ## Performance
 
-Steam's own performance controls work in the Quick Access menu. That covers the
-performance profile, TDP limit, GPU clock and charge limit, including
-bypass charging.
+The performance controls in Quick Access work: performance profile, TDP limit,
+GPU clock and charge limit, bypass charging included.
 
 ## Commands (KONKR Pocket FIT and AYANEO Pocket S2)
 

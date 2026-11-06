@@ -10,15 +10,15 @@ hide:
 
 # Zaviya { .sr-only }
 
-Based on the SteamOS ARM image from Steam Frame, not another skin. We reworked
-it for gaming handhelds and gave it its own kernel, power tuning and app store.
+SteamOS for ARM handhelds, built on the ARM image made for Steam Frame. Not
+another skin. I removed what a handheld doesn't need and fixed the rest.
 
 [Install Zaviya](getting-started/install.md){ .md-button .md-button--primary }
 [Devices](devices/index.md){ .md-button }
 [Downloads](downloads.md){ .md-button }
 [:fontawesome-brands-discord: Discord](https://discord.gg/EP53nZYvg){ .md-button }
 
-An independent community project. Formerly SteamOS ARM Port.
+Formerly known as Unofficial SteamOS ARM Port. An independent community project.
 { .hero__note }
 
 </div>
@@ -28,99 +28,116 @@ An independent community project. Formerly SteamOS ARM Port.
     Installing Zaviya replaces your device's bootloader. Back up your data and
     read the install guide before you start.
 
-## What makes Zaviya different
+## What is in it
 
 <ul class="features" role="list" markdown="1">
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-layers-triple-outline:</div>
     <div>
-      <strong>The SteamOS ARM image underneath</strong>
-      <p>Zaviya starts from the SteamOS ARM image made for Steam Frame. We removed what a handheld doesn't need and fixed the rest. It's not another skin on a different Linux.</p>
+      <strong>Base system</strong>
+      <p>The SteamOS ARM image from Steam Frame. Its services crashed on a handheld and the GPU wouldn't clock up, so I turned off what isn't needed and fixed the rest.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-chart-timeline-variant-shimmer:</div>
     <div>
       <strong>Frame generation</strong>
-      <p>Lossless Scaling frame generation tuned for Adreno GPUs. There's also an ARM64 build of lsfg-vk for native ARM games.</p>
+      <p>Lossless Scaling frame generation, in performance mode on Adreno GPUs. lsfg-vk 2.0 also has an ARM64 build for native ARM games.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-package-variant-closed:</div>
     <div>
-      <strong>An app store that reads your library</strong>
-      <p>Zaviya Loadout looks at the games you have and suggests emulators and apps to play them, chosen for your chip.</p>
+      <strong>Zaviya Loadout</strong>
+      <p>The app store. It counts your games per system, shows which emulator to get for the ones nothing plays yet, and installs the starter set for your chip.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-monitor-multiple:</div>
     <div>
-      <strong>Bottom screen on dual screen devices</strong>
-      <p>On the AYN Thor and AYANEO Pocket DS, the bottom screen has its own launcher, game tools, a live dashboard and a trackpad with swipe typing.</p>
+      <strong>Bottom screen</strong>
+      <p>On the AYN Thor and AYANEO Pocket DS the bottom screen shows a launcher, game tools, a dashboard with themes, and a trackpad with swipe typing.</p>
     </div>
   </li>
 </ul>
 
-## What else is in it
+## Also included
 
 <ul class="features" role="list" markdown="1">
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-steam:</div>
     <div>
       <strong>Game Mode and desktop</strong>
-      <p>Game Mode, the Steam client and a KDE desktop. All of it runs natively on ARM.</p>
+      <p>Game Mode, the Steam client and a KDE desktop, all running natively on ARM.</p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="features__icon" aria-hidden="true">:material-gamepad-variant-outline:</div>
+    <div>
+      <strong>Controller</strong>
+      <p>The handheld's controller shows up as a Steam Deck pad. Decky and the performance overlay come with it.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-update:</div>
     <div>
-      <strong>Updates through Steam</strong>
-      <p>Signed updates from Settings > System. You don't need to reflash, and a failed update rolls back on its own.</p>
+      <strong>Updates</strong>
+      <p>Updates come from Settings > System, no reflashing. A failed update rolls back.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-plus-box-multiple-outline:</div>
     <div>
       <strong>Add games from files</strong>
-      <p>Windows games, console game files, Linux apps and Android apps are added to your Steam library with their artwork.</p>
+      <p>Windows games, console game files, Linux apps and Android apps go into your Steam library with artwork.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-store-outline:</div>
     <div>
-      <strong>Epic, GOG and Amazon libraries</strong>
-      <p>An ARM64 build of Heroic installs your PC libraries. The games play from Steam with Proton.</p>
-    </div>
-  </li>
-  <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-sleep:</div>
-    <div>
-      <strong>Sleep and power</strong>
-      <p>Sleep works on every supported chip. You also get quiet fan curves and Steam's own power and charge controls.</p>
+      <strong>Epic, GOG and Amazon</strong>
+      <p>Heroic, as an ARM64 build, installs the libraries. The games launch from Steam with Proton.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-android:</div>
     <div>
       <strong>Android apps</strong>
-      <p>Install and run Android apps, including the Play Store. Each app shows up in your library.</p>
+      <p>The Play Store works. Each app gets its own title in the library. Zaviya Control has a Restart into Android button.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-cast-connected:</div>
     <div>
       <strong>Remote Play and docking</strong>
-      <p>Steam Remote Play with hardware decoding. Game Mode also runs on an external monitor, with sound.</p>
+      <p>Steam Remote Play with hardware decoding, and optional PyroWave. Game Mode also runs on an external monitor or dock, sound included.</p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="features__icon" aria-hidden="true">:material-sleep:</div>
+    <div>
+      <strong>Sleep and power</strong>
+      <p>Sleep works on every supported chip, the fan curves are quiet, and the device powers off cleanly before the battery runs flat.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-harddisk:</div>
     <div>
-      <strong>microSD or internal storage</strong>
-      <p>Run it from a microSD card, or install it to internal storage and keep Android on the device.</p>
+      <strong>Storage</strong>
+      <p>Run it from a microSD card, or install it to internal storage next to Android.</p>
     </div>
   </li>
 </ul>
+
+## How to get it
+
+1. Flash the image for your chip to a microSD card (32 GB or bigger).
+2. Flash OpenABL, the boot menu. Back up your stock ABL first.
+3. Hold Volume Down at power-on, pick your device, set the boot mode to Linux and start it. First boot takes a couple of minutes.
+
+The [install guide](getting-started/install.md) has every step. There's one
+image per chip, listed on [Downloads](downloads.md). Tablets are different, they
+don't use OpenABL, see the [Lenovo page](devices/lenovo.md).
 
 ## Supported devices
 
@@ -139,17 +156,23 @@ An independent community project. Formerly SteamOS ARM Port.
     AYN Odin 2 / Mini / Portal / Thor, AYANEO Pocket ACE / DMG / DS / EVO /
     S 1K / S 2K, Retroid Pocket 6 / Nova
 
--   :material-flask-outline:{ .warn } **Lenovo tablets** · Testing
+-   :material-flask-outline:{ .warn } **Snapdragon 865** · Beta
 
-    Lenovo Legion Y700 Gen 3 and Gen 4. Got one?
-    [Help test it](devices/lenovo.md)
+    Retroid Pocket 5 / Flip 2 / Mini / Mini V2, AYN Thor Lite, MANGMI Air Y Pro /
+    Pocket Max, AYANEO Pocket MICRO 2
+
+-   :material-flask-outline:{ .warn } **Lenovo Legion Y700** · Testing
+
+    Gen 3 and Gen 4 are in testing. Gen 5 (TB323FU, Snapdragon 8 Elite Gen 5)
+    runs from a microSD card and is switched on from Android.
+    [Lenovo page](devices/lenovo.md)
 
 </div>
 
-The [Supported Devices](devices/index.md) page lists what works on each one.
+The [Supported Devices](devices/index.md) page lists every device by maker.
+I only own a Pocket FIT, the rest is tested by the community.
 
 ## Community
 
-Questions, install help, or how it runs on your device: use the
-[Discord](https://discord.gg/EP53nZYvg). Bugs go to
-[GitHub issues](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues).
+Questions or install help go to the [Discord](https://discord.gg/EP53nZYvg).
+Bugs go to [GitHub issues](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues).

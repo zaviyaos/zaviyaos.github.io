@@ -1,7 +1,7 @@
 # Dual Screen
 
-On the AYN Thor and AYANEO Pocket DS, games run on the top screen and the
-bottom screen gets its own launcher and dashboard in Game Mode.
+On the AYN Thor and AYANEO Pocket DS, games run on the top screen. In Game Mode
+the bottom screen shows a launcher and a dashboard.
 
 | Page | What's on it |
 |---|---|

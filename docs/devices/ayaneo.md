@@ -10,3 +10,4 @@
 | AYANEO Pocket EVO | 8 Gen 2 | :material-check-circle:{ .ok } Yes |  |
 | AYANEO Pocket S 1K | 8 Gen 2 |  | AYANEO button not mapped yet |
 | AYANEO Pocket S 2K | 8 Gen 2 | :material-check-circle:{ .ok } Yes | AYANEO button not mapped yet, touch is off on some units |
+| AYANEO Pocket MICRO 2 | 865 | Beta |  |

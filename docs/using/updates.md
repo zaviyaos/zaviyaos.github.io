@@ -1,12 +1,11 @@
 # Updates
 
-Zaviya updates through Steam's own update button, like a Steam
-Deck. Updates download in the background and install on the next restart.
-Your games, saves, accounts and Wi-Fi settings are kept.
+Updates work like on a Steam Deck. They download in the background and install
+on the next restart. Your games, saves, accounts and Wi-Fi settings stay.
 
-Every update is signed and verified before anything changes, and it only
-installs on the devices it was made for. If an update is interrupted, it rolls
-back on the next boot.
+Updates are signed and checked before anything changes, and only install on the
+devices they were made for. If one gets interrupted, it rolls back on the next
+boot.
 
 ## Steps
 

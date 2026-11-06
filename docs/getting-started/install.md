@@ -1,9 +1,13 @@
 # Flash to a microSD Card
 
-Zaviya runs from a microSD card. Android stays on the device, and you can still
-start it from the OpenABL menu. Once Zaviya runs, you can optionally
-[install it to internal storage](internal-storage.md) on the Pocket FIT and
-Pocket S2.
+This is for handhelds, and it runs from a microSD card. Android stays on the
+device and you can start it from the OpenABL menu. On the Pocket FIT and Pocket
+S2 you can later [install to internal storage](internal-storage.md).
+
+!!! info "Handhelds only"
+
+    OpenABL is for handhelds. Tablets don't use it, see the
+    [Lenovo page](../devices/lenovo.md).
 
 ## Steps
 

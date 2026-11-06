@@ -2,22 +2,20 @@
 
 ??? question "Is this an official SteamOS release?"
 
-    No. Zaviya is an independent community project. Report problems to us,
-    not to Steam Support.
+    No. It's an independent community project. Report problems here, not to Steam
+    Support.
 
-??? question "How is it different from other handheld systems?"
+??? question "What is it based on?"
 
-    It's based on the SteamOS ARM image from Steam Frame, not another skin on a
-    different Linux. It also has frame generation, a store that suggests
-    what to install based on the games you have, and a full interface for the
-    second screen on dual screen devices.
+    The SteamOS ARM image from Steam Frame. On top of that: frame generation,
+    Zaviya Loadout, which suggests apps from the games you have, and a launcher
+    for the second screen on dual screen devices.
 
 ??? question "What's in it?"
 
-    Game Mode, the Steam client and the desktop. On top of that, Zaviya
-    adds the kernel and hardware support for each handheld, power and
-    fan tuning, updates through Steam, Zaviya Loadout, Android apps and the dual
-    screen launcher.
+    Game Mode, the Steam client and the desktop, plus the kernel and hardware
+    support for each handheld, power and fan settings, updates through Steam,
+    Zaviya Loadout, Android apps and the dual screen launcher.
 
 ??? question "Does Android still work?"
 
@@ -42,5 +40,6 @@
 
 ??? question "My device isn't listed"
 
-    Each device needs its own hardware support. We add new chips and devices over time. Send requests to
+    Every device needs its own hardware support. New ones get added over time.
+    Ask on
     [GitHub issues](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues).

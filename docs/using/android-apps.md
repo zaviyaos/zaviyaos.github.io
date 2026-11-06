@@ -1,11 +1,11 @@
 # Android Apps
 
-Zaviya can install and run Android apps, including the Google Play Store. A
-**Google Play Store** title appears in the library after you first sign in.
+Android apps run, Play Store included. A **Google Play Store** title shows up in
+the library after you first sign in.
 
-Every app you install from the Play Store, or from an `.apk`, `.apkm`, `.xapk`
-or `.apks` file, gets its own title in the Steam library with its icon. Apps run
-full screen. Touch, the controller and an on-screen keyboard all work.
+Apps from the Play Store, or from an `.apk`, `.apkm`, `.xapk` or `.apks` file,
+get a title in the Steam library with their icon. They run full screen with
+touch, the controller and an on-screen keyboard.
 
 ## Installing an app file
 
