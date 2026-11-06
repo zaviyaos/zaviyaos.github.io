@@ -7,7 +7,7 @@ the device. Android stays on the device throughout.
 !!! warning
 
     OpenABL replaces the device's bootloader. A mistake can leave the device
-    unable to boot or cause data loss. Back up your data and the stock ABL, and
+    unable to boot or cause data loss. Back up data and the stock ABL, and
     follow the guides in order.
 
 !!! info "Handhelds only"

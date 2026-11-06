@@ -23,9 +23,9 @@ Android stays on the device and starts from the OpenABL menu. The 8 Elite, 8 Gen
     !!! note
 
         Common flashing tools are [balenaEtcher](https://etcher.balena.io/)
-        and [Rufus](https://rufus.ie/). If the image comes in `.7z` parts,
-        extract the `.001` part first with 7-Zip, WinRAR, Keka or The
-        Unarchiver.
+        and [Rufus](https://rufus.ie/). Images come in `.7z` parts: keep them
+        in one folder and extract the `.001` part first with 7-Zip, WinRAR,
+        Keka or The Unarchiver.
 
 3. Flash OpenABL if the device doesn't have it yet, see
    [Flash OpenABL](abl.md). Devices that already show the OpenABL menu skip

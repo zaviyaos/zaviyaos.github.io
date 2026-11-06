@@ -26,7 +26,7 @@ Formerly known as Unofficial SteamOS ARM Port. An independent community project.
 
 !!! warning soft "Before you install"
 
-    Installation replaces the device's bootloader. Back up your data first.
+    Installation replaces the device's bootloader. Back up data first.
 
 
 ## Features
@@ -134,7 +134,7 @@ Formerly known as Unofficial SteamOS ARM Port. An independent community project.
 
 1. Flash the image for the device's chip to a microSD card (32 GB or larger).
 2. Flash OpenABL, the boot menu. Back up the stock ABL first.
-3. Hold Volume Down at power-on, choose the device, set the boot mode to Linux and select START. The first boot takes a couple of minutes.
+3. Hold Volume Down at power-on, choose the device, set the boot mode to Linux and select START. The first boot takes a few minutes.
 
 The [install guide](getting-started/install.md) covers every step, and each chip
 has its own image on [Downloads](downloads.md). Tablets do not use OpenABL, see
