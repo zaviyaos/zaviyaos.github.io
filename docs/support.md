@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Support
 
 Zaviya is free and built in spare time. There are a

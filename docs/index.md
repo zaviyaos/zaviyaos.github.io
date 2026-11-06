@@ -6,34 +6,28 @@ hide:
 
 <div class="hero" markdown>
 
-![](assets/mark.svg){ .hero__mark role="presentation" }
+![Zaviya, for ARM handhelds](assets/logo.svg){ .hero__logo }
 
-<span class="hero__tag">Unofficial</span>
-
-# Zaviya
-
-## for ARM handhelds
+# Zaviya { .sr-only }
 
 Brings a SteamOS experience to ARM gaming handhelds, with full hardware
 support, power tuning, its own app store and features built for handhelds.
-
-Based on Valve's SteamOS. Not affiliated with or endorsed by Valve.
-
-Zaviya used to be called SteamOS ARM Port, in case you are searching for that.
 
 [Install Zaviya](getting-started/install.md){ .md-button .md-button--primary }
 [Devices](devices/index.md){ .md-button }
 [Downloads](downloads.md){ .md-button }
 [:fontawesome-brands-discord: Discord](https://discord.gg/EP53nZYvg){ .md-button }
 
+Unofficial community project based on Valve's SteamOS. Not affiliated with or
+endorsed by Valve. Formerly SteamOS ARM Port.
+{ .hero__note }
+
 </div>
 
-!!! warning "Unofficial community project"
+!!! warning "Before you install"
 
-    Zaviya is not affiliated with or endorsed by Valve. Steam and
-    SteamOS are trademarks of Valve Corporation. Installing it replaces your
-    device's bootloader, so read the install guide and back up your data
-    first.
+    Installing Zaviya replaces your device's bootloader. Read the install guide
+    and back up your data first.
 
 <ul class="features" role="list" markdown="1">
   <li markdown="1">

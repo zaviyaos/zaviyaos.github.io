@@ -1,7 +1,5 @@
 # Flash OpenABL
 
-## Overview
-
 The ABL is the part of the bootloader that starts the operating system. The
 stock one only starts Android, so it is replaced with
 [OpenABL](https://github.com/OpenHandheldCollective/OpenABL), which starts

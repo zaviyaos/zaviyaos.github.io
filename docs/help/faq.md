@@ -7,7 +7,7 @@
 
 ??? question "What's in it?"
 
-    Game Mode, the Steam client and the desktop. On top of that the port
+    Game Mode, the Steam client and the desktop. On top of that Zaviya
     adds the kernel and hardware support for each handheld, power and
     fan tuning, updates through Steam, Zaviya Loadout, Android apps and the dual
     screen launcher.

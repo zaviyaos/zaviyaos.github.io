@@ -1,7 +1,5 @@
 # Frame Generation
 
-## Overview
-
 Lossless Scaling frame generation runs through the decky-lsfg-vk plugin. It
 defaults to performance mode, which is what adds frames on Adreno GPUs.
 Zaviya adds an unmodified ARM64 build of

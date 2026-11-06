@@ -1,7 +1,5 @@
 # Android Apps
 
-## Overview
-
 Zaviya can install and run Android apps, with the Google Play
 Store included. A **Google Play Store** title appears in the library after
 the first sign-in.

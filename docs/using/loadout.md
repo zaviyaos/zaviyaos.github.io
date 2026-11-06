@@ -1,7 +1,5 @@
 # Zaviya Loadout
 
-## Overview
-
 Zaviya Loadout is the store built into Zaviya. It installs emulators, PC
 game stores and apps that are picked for your chip, and adds anything you
 have to your Steam library. Open it from **Quick Access > Zaviya Loadout > Open

@@ -1,7 +1,5 @@
 # Supported Devices
 
-## Overview
-
 Zaviya ships one image per chip. The device is picked in the
 ABL menu on first boot, and the system sets itself up for it. Pick a maker to
 see its devices, their chip and any notes.

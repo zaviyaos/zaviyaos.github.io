@@ -12,7 +12,7 @@
 Installs made with versions before 1.3 gave the Linux boot partition a type
 Android doesn't start next to: the Snapdragon logo shows, then the device
 turns off. Changing the type fixes it. It doesn't erase anything, and
-the port keeps booting from internal storage.
+Zaviya keeps booting from internal storage.
 
 1. Open **Konsole** in Desktop Mode and find the boot partition:
 

@@ -11,22 +11,15 @@ copyright: >-
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/mark.svg
+  logo: assets/frame.svg
   favicon: assets/mark.svg
   font:
     text: Inter
     code: JetBrains Mono
   palette:
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle: { icon: material/weather-sunny, name: Light mode }
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: custom
-      accent: custom
-      toggle: { icon: material/weather-night, name: Dark mode }
+    scheme: slate
+    primary: custom
+    accent: custom
   features:
     - navigation.tabs
     - navigation.sections
@@ -76,9 +69,8 @@ nav:
   - Downloads: downloads.md
   - Devices:
       - Supported Devices: devices/index.md
-      - AYANEO:
-          - devices/ayaneo.md
-          - Pocket DMG: devices/pocket-dmg.md
+      - AYANEO: devices/ayaneo.md
+      - AYANEO Pocket DMG: devices/pocket-dmg.md
       - AYN: devices/ayn.md
       - KONKR: devices/konkr.md
       - Lenovo: devices/lenovo.md

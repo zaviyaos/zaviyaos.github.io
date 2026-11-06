@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Downloads
 
 Zaviya has one image per chip. Every release is on

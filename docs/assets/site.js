@@ -1,11 +1,14 @@
-// Label each table cell with its column name, so phones can show rows as cards.
+// Mark tables so phones can show each row as a card. An attribute, not a class:
+// the theme only styles tables that have no class.
 function labelTables() {
   document.querySelectorAll(".md-typeset table").forEach(t => {
     const heads = [...t.querySelectorAll("thead th")].map(th => th.textContent.trim());
-    if (heads.length < 3) return;
-    t.classList.add("stack");
+    t.dataset.stack = heads.length > 2 ? "labeled" : "plain";
     t.querySelectorAll("tbody tr").forEach(tr =>
-      [...tr.children].forEach((td, i) => td.setAttribute("data-label", heads[i] || "")));
+      [...tr.children].forEach((td, i) => {
+        td.dataset.label = heads[i] || "";
+        if (td.textContent.trim() === "—") td.classList.add("is-empty");
+      }));
   });
 }
 if (typeof document$ !== "undefined") document$.subscribe(labelTables);

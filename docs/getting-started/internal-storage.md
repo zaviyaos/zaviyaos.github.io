@@ -1,7 +1,5 @@
 # Install to Internal Storage
 
-## Overview
-
 On the KONKR Pocket FIT and AYANEO Pocket S2, Zaviya can be
 installed to internal storage next to Android, so it boots without the card.
 Other devices run from the microSD card.
@@ -15,7 +13,7 @@ Other devices run from the microSD card.
 
 ## Steps
 
-1. Boot the port from the microSD card.
+1. Boot Zaviya from the microSD card.
 2. Open **Zaviya Installer** in Desktop Mode, or the Installer section in **Zaviya Control** in Game Mode.
 3. Choose how much space Android keeps, and whether your games are copied
    over.
