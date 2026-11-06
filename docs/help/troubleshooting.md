@@ -1,16 +1,16 @@
 # Troubleshooting
 
-## Debug Logs
+## Debug logs
 
 1. Put an empty file called `debug` on the microSD card's **BOOT** drive.
 2. Boot, and reproduce the problem.
 3. Attach the `debug-logs` folder from the **BOOT** drive to a
    [GitHub issue](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues).
 
-## Android Doesn't Start After Installing to Internal Storage
+## Android doesn't start after installing to internal storage
 
 Installs made with versions before 1.3 gave the Linux boot partition a type
-Android doesn't start next to: the Snapdragon logo shows, then the device
+that Android doesn't start next to. The Snapdragon logo shows, then the device
 turns off. Changing the type fixes it. It doesn't erase anything, and
 Zaviya keeps booting from internal storage.
 
@@ -44,13 +44,13 @@ Zaviya keeps booting from internal storage.
     `sudo ufs-partition.py fix-types` followed by
     `sudo ufs-partition.py reset-android --yes`.
 
-## Black Screen After Booting
+## Black screen after booting
 
 - Check the device model in the OpenABL menu matches your device exactly.
-- Re-flash the card. An interrupted flash is the most common cause.
+- Flash the card again. An interrupted flash is the most common cause.
 - Collect [debug logs](#debug-logs) and open an issue.
 
-## No Sound
+## No sound
 
 - Open the volume slider in Quick Access and check the output device.
 - On the Pocket FIT, run `konkrctl status` and include the output in an issue.

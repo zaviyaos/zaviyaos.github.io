@@ -1,12 +1,12 @@
 site_name: Zaviya
 site_url: https://steamos-arm-port.github.io/zaviya/
-site_description: Zaviya, for ARM handhelds. Based on Valve's SteamOS.
+site_description: Zaviya, for ARM handhelds. Based on the SteamOS ARM image from Steam Frame.
 repo_url: https://github.com/hashtagbasit/SteamOS-ARM-Port
 repo_name: Zaviya on GitHub
 edit_uri: ""
 copyright: >-
-  Based on Valve's SteamOS. Not affiliated with or endorsed by Valve.
-  Steam and SteamOS are trademarks of Valve Corporation.
+  Zaviya is an independent community project. Steam and SteamOS are trademarks
+  of their owner.
 
 theme:
   name: material

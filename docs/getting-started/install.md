@@ -1,14 +1,15 @@
 # Flash to a microSD Card
 
-Zaviya runs from a microSD card. Android stays on the device and
-can still be started from the OpenABL menu. Once it runs, the Pocket FIT and
-Pocket S2 can optionally be [installed to internal storage](internal-storage.md).
+Zaviya runs from a microSD card. Android stays on the device, and you can still
+start it from the OpenABL menu. Once Zaviya runs, you can optionally
+[install it to internal storage](internal-storage.md) on the Pocket FIT and
+Pocket S2.
 
 ## Steps
 
 1. Download the image for your chip from [Downloads](../downloads.md).
 
-2. Flash it to a 32 GB or larger microSD card (A2 speed for best results).
+2. Flash it to a 32 GB or larger microSD card (A2 speed is best).
 
     !!! note
 
@@ -38,7 +39,7 @@ Pocket S2 can optionally be [installed to internal storage](internal-storage.md)
 
 6. The first boot takes a few minutes. Sign in to Steam when it asks.
 
-## Setting a Password
+## Setting a password
 
-The `steamos` user has no password until one is set. Open **Konsole** in
-Desktop Mode and run `passwd`. The password is needed for `sudo`.
+The `steamos` user has no password until you set one. Open **Konsole** in
+Desktop Mode and run `passwd`. You need the password for `sudo`.

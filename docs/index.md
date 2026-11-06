@@ -10,120 +10,119 @@ hide:
 
 # Zaviya { .sr-only }
 
-Valve's ARM build of SteamOS, reworked for gaming handhelds, with full hardware
-support, power tuning, its own app store and features built for handhelds.
+Based on the SteamOS ARM image from Steam Frame, not another skin. We reworked
+it for gaming handhelds and gave it its own kernel, power tuning and app store.
 
 [Install Zaviya](getting-started/install.md){ .md-button .md-button--primary }
 [Devices](devices/index.md){ .md-button }
 [Downloads](downloads.md){ .md-button }
 [:fontawesome-brands-discord: Discord](https://discord.gg/EP53nZYvg){ .md-button }
 
-Based on Valve's SteamOS. Not affiliated with or endorsed by Valve.
-Formerly SteamOS ARM Port.
+An independent community project. Formerly SteamOS ARM Port.
 { .hero__note }
 
 </div>
 
 !!! warning "Before you install"
 
-    Installing Zaviya replaces your device's bootloader. Read the install guide
-    and back up your data first.
+    Installing Zaviya replaces your device's bootloader. Back up your data and
+    read the install guide before you start.
 
-## What Makes Zaviya Different
+## What makes Zaviya different
 
 <ul class="features" role="list" markdown="1">
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-layers-triple-outline:</div>
     <div>
-      <strong>The Real SteamOS Base</strong>
-      <p>Zaviya starts from Valve's own ARM build of SteamOS, the one made for Steam Frame, then removes what a handheld doesn't need and fixes the rest. It isn't a different Linux made to look like SteamOS.</p>
+      <strong>The SteamOS ARM image underneath</strong>
+      <p>Zaviya starts from the SteamOS ARM image made for Steam Frame. We removed what a handheld doesn't need and fixed the rest. It's not another skin on a different Linux.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-chart-timeline-variant-shimmer:</div>
     <div>
-      <strong>Frame Generation Included</strong>
-      <p>Lossless Scaling frame generation tuned for Adreno GPUs, with an ARM64 build of lsfg-vk for native ARM games too.</p>
+      <strong>Frame generation</strong>
+      <p>Lossless Scaling frame generation tuned for Adreno GPUs. There's also an ARM64 build of lsfg-vk for native ARM games.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-package-variant-closed:</div>
     <div>
-      <strong>A Store That Knows Your Games</strong>
-      <p>Zaviya Loadout looks at the games you have, then suggests the emulators and apps to play them, picked for your chip.</p>
+      <strong>An app store that reads your library</strong>
+      <p>Zaviya Loadout looks at the games you have and suggests emulators and apps to play them, chosen for your chip.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-monitor-multiple:</div>
     <div>
-      <strong>A Second Screen With a Job</strong>
-      <p>On the AYN Thor and AYANEO Pocket DS the bottom screen gets its own launcher, game tools, live dashboard and a trackpad with swipe typing.</p>
+      <strong>Bottom screen on dual screen devices</strong>
+      <p>On the AYN Thor and AYANEO Pocket DS, the bottom screen has its own launcher, game tools, a live dashboard and a trackpad with swipe typing.</p>
     </div>
   </li>
 </ul>
 
-## Everything Else You Get
+## What else is in it
 
 <ul class="features" role="list" markdown="1">
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-steam:</div>
     <div>
-      <strong>Game Mode and Desktop</strong>
-      <p>Game Mode, the Steam client and a KDE desktop, running natively on ARM.</p>
+      <strong>Game Mode and desktop</strong>
+      <p>Game Mode, the Steam client and a KDE desktop. All of it runs natively on ARM.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-update:</div>
     <div>
-      <strong>Updates Through Steam</strong>
-      <p>Signed updates from Settings > System. No reflashing, and a failed update rolls back on its own.</p>
+      <strong>Updates through Steam</strong>
+      <p>Signed updates from Settings > System. You don't need to reflash, and a failed update rolls back on its own.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-plus-box-multiple-outline:</div>
     <div>
-      <strong>Add Any Game</strong>
-      <p>Windows games, console game files, Linux apps and Android apps go into your Steam library with their artwork.</p>
+      <strong>Add games from files</strong>
+      <p>Windows games, console game files, Linux apps and Android apps are added to your Steam library with their artwork.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-store-outline:</div>
     <div>
-      <strong>Epic, GOG and Amazon</strong>
-      <p>An ARM64 build of Heroic installs your PC libraries, and they play from Steam with Proton.</p>
+      <strong>Epic, GOG and Amazon libraries</strong>
+      <p>An ARM64 build of Heroic installs your PC libraries. The games play from Steam with Proton.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-sleep:</div>
     <div>
-      <strong>Sleep That Lasts</strong>
-      <p>Real sleep on every supported chip, with quiet fan curves and Steam's own power and charge controls.</p>
+      <strong>Sleep and power</strong>
+      <p>Sleep works on every supported chip. You also get quiet fan curves and Steam's own power and charge controls.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-android:</div>
     <div>
-      <strong>Android Apps</strong>
-      <p>Install and run Android apps, Play Store included. Each one shows up in your library.</p>
+      <strong>Android apps</strong>
+      <p>Install and run Android apps, including the Play Store. Each app shows up in your library.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-cast-connected:</div>
     <div>
-      <strong>Stream and Dock</strong>
-      <p>Steam Remote Play with hardware decoding, and Game Mode on an external monitor with sound.</p>
+      <strong>Remote Play and docking</strong>
+      <p>Steam Remote Play with hardware decoding. Game Mode also runs on an external monitor, with sound.</p>
     </div>
   </li>
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-harddisk:</div>
     <div>
-      <strong>microSD or Internal</strong>
-      <p>Run it from a microSD card, or install it to internal storage with Android still on the device.</p>
+      <strong>microSD or internal storage</strong>
+      <p>Run it from a microSD card, or install it to internal storage and keep Android on the device.</p>
     </div>
   </li>
 </ul>
 
-## Supported Devices
+## Supported devices
 
 <div class="grid cards chips" markdown>
 
@@ -147,10 +146,10 @@ Formerly SteamOS ARM Port.
 
 </div>
 
-See [Supported Devices](devices/index.md) for what works on each one.
+The [Supported Devices](devices/index.md) page lists what works on each one.
 
 ## Community
 
-Questions, help with installing, or just want to share how it runs? Join the
+Questions, install help, or how it runs on your device: use the
 [Discord](https://discord.gg/EP53nZYvg). Bugs go to
 [GitHub issues](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues).

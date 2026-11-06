@@ -1,6 +1,6 @@
 # Supported Devices
 
-Zaviya ships one image per chip. The device is picked in the
+Zaviya has one image per chip. You pick your device in the
 OpenABL menu on first boot, and the system sets itself up for it. Pick a maker to
 see its devices, their chip and any notes.
 
@@ -32,6 +32,6 @@ see its devices, their chip and any notes.
 
 </div>
 
-Tested devices are marked on each page. Running Zaviya on a device that isn't
-marked? [Tell us how it runs](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues),
+Tested devices are marked on each page. If you run Zaviya on a device that isn't
+marked, [tell us how it runs](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues),
 even if everything works. Images are on [Downloads](../downloads.md).

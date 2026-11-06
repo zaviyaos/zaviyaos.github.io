@@ -2,14 +2,14 @@
 
 Snapdragon 8 Gen 2. :material-check-circle:{ .ok } Tested.
 
-## Opening the ABL Menu
+## Opening the ABL menu
 
 The Pocket DMG has no Volume Down key, so the usual step in
 [Flash to a microSD Card](../getting-started/install.md) doesn't work as written.
-Restart while holding the button above the volume wheel instead, and the
-OpenABL menu opens.
+Instead, restart while holding the button above the volume wheel to open the
+OpenABL menu.
 
 ## Notes
 
 - The volume wheel changes the volume in Game Mode and Desktop Mode.
-- Touch and the speakers work out of the box.
+- Touch and the speakers work.

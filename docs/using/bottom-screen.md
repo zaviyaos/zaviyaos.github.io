@@ -20,10 +20,10 @@ screens (melonDS, Azahar) take over the bottom screen while they run.
 
 !!! tip
 
-    Swiping up from the bottom edge, or holding the AYN button, always returns
-    to the home page.
+    Swipe up from the bottom edge, or hold the AYN button, to go back to the
+    home page from anywhere.
 
-## Turning It Off
+## Turning it off
 
 Set `"enabled": false` in `~/.config/steamos-arm/bottom-screen.json` and
 return to Game Mode.

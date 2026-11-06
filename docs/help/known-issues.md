@@ -1,6 +1,6 @@
 # Known Issues
 
-## All Devices
+## All devices
 
 - Desktop Mode asks once per session before the right stick can move the
   mouse pointer. Select **Allow** and it works until the next restart.

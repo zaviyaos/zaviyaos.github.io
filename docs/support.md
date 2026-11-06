@@ -5,28 +5,26 @@ hide:
 
 # Support
 
-Zaviya is free and built in spare time. There are a
-few ways to help it grow.
+Zaviya is free and built in spare time. Here are a few ways to help.
 
-## Support Development
+## Support development
 
-Every bit goes toward test hardware and the time to keep new releases coming.
+Donations go toward test hardware and the time to keep releases coming.
 
 [:simple-kofi: Ko-fi](https://ko-fi.com/aimalb){ .md-button .md-button--primary }
 [:fontawesome-brands-paypal: PayPal](https://paypal.me/Basit2000){ .md-button }
 
-## Send a Device
+## Send a device
 
-Most handhelds here are tested by the community, and new ones are only added
-when someone can try them. Have a spare handheld that's supported, or one
-you'd like to see supported? Lending or sending it makes the biggest
-difference. Get in touch through [Discord](https://discord.gg/EP53nZYvg) or
+The community tests most of the handhelds here, and we only add a new one when
+someone can try it. If you have a spare handheld that's supported, or one you'd
+like to see supported, lending or sending it helps the most. Get in touch through [Discord](https://discord.gg/EP53nZYvg) or
 [GitHub](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues).
 
-## Test and Report
+## Test and report
 
-Running it on your device and reporting how it went, even when everything
-works, helps just as much. Starring the
+Run it on your device and tell us how it went, even when everything works.
+That helps just as much. Starring the
 [GitHub repo](https://github.com/hashtagbasit/SteamOS-ARM-Port) helps too.
 
 ## Credits

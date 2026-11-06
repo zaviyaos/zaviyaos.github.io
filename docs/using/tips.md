@@ -2,7 +2,7 @@
 
 ## Performance
 
-Steam's own performance controls work in the Quick Access menu: the
+Steam's own performance controls work in the Quick Access menu. That covers the
 performance profile, TDP limit, GPU clock and charge limit, including
 bypass charging.
 
@@ -23,5 +23,5 @@ SSH is off by default.
 2. Run `sudo systemctl enable --now sshd`.
 3. Connect from a PC with `ssh steamos@<device-ip>`.
 
-Root login is disabled; use `sudo`. Turn SSH off again with
+Root login is disabled, so use `sudo`. Turn SSH off again with
 `sudo systemctl disable --now sshd`.

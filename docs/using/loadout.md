@@ -1,14 +1,14 @@
 # Zaviya Loadout
 
-Zaviya Loadout is the store built into Zaviya. It installs emulators, PC
-game stores and apps that are picked for your chip, and adds anything you
-have to your Steam library. Open it from **Quick Access > Zaviya Loadout > Open
+Zaviya Loadout is the app store in Zaviya. It installs emulators, PC game
+stores and apps chosen for your chip, and it adds your games to your Steam
+library. Open it from **Quick Access > Zaviya Loadout > Open
 Zaviya Loadout**.
 
 ## For You
 
-For You reads your game library: how many games there are for each system,
-and which emulator to get for the systems nothing plays yet. It also offers
+For You reads your game library. It shows how many games you have for each
+system, and which emulator to get for systems nothing plays yet. It also offers
 the starter set for your chip and ready-made sets that install only what's
 missing:
 
@@ -19,7 +19,7 @@ missing:
 - A console-style front end
 - Films and music
 
-## App Pages
+## App pages
 
 Selecting an app opens its page with:
 
@@ -28,9 +28,9 @@ Selecting an app opens its page with:
 - what's new in an available update
 - the space it takes, and Play, Update, Reset Settings and Remove
 
-## Add a Game
+## Add a game
 
-**Mine > Add a game or app** puts almost any game or app into the Steam
+**Mine > Add a game or app** adds almost any game or app to the Steam
 library:
 
 | File | How it runs |
@@ -41,9 +41,9 @@ library:
 | Android `.apk`, `.apkm`, `.xapk`, `.apks` | installed into Android with its own Steam title |
 
 Artwork comes from the Steam store when the game is sold there. Added games
-are listed in **Mine**, where they can be played or taken out of Steam.
+are listed in **Mine**. You can play them there or take them out of Steam.
 
-## Game Library
+## Game library
 
 | Folder | Contents |
 |---|---|

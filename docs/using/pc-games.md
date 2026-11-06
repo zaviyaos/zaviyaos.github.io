@@ -1,7 +1,7 @@
 # PC Games
 
-Epic Games, GOG and Amazon Games libraries are installed with Heroic Games
-Launcher and played from Steam with Steam's own Proton. Heroic only publishes
+You install Epic Games, GOG and Amazon Games libraries with Heroic Games
+Launcher and play them from Steam with Steam's own Proton. Heroic only publishes
 x86 Linux builds, so Zaviya Loadout installs an
 [ARM64 build](https://github.com/hashtagbasit/arm64-linux-apps) made from
 Heroic's source.
@@ -14,10 +14,10 @@ Heroic's source.
 4. In Zaviya Loadout's **PC Games** tab, select **Add to Steam** next to each game,
    or **Add all to Steam**.
 
-The games appear in the Steam library with their artwork, set up to run with
+The games show up in the Steam library with their artwork, set up to run with
 Proton.
 
 !!! note
 
-    Launch these games from Steam rather than from Heroic. Games whose
-    anti-cheat doesn't support Linux won't run, the same as on a Steam Deck.
+    Launch these games from Steam, not from Heroic. Games whose anti-cheat
+    doesn't support Linux won't run, the same as on a Steam Deck.

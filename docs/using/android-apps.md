@@ -1,14 +1,13 @@
 # Android Apps
 
-Zaviya can install and run Android apps, with the Google Play
-Store included. A **Google Play Store** title appears in the library after
-the first sign-in.
+Zaviya can install and run Android apps, including the Google Play Store. A
+**Google Play Store** title appears in the library after you first sign in.
 
-Every app installed from the Play Store, or as an `.apk`, `.apkm`, `.xapk` or
-`.apks`, appears as its own title in the Steam library with its icon. Apps run
-full screen with touch, the controller and an on-screen keyboard.
+Every app you install from the Play Store, or from an `.apk`, `.apkm`, `.xapk`
+or `.apks` file, gets its own title in the Steam library with its icon. Apps run
+full screen. Touch, the controller and an on-screen keyboard all work.
 
-## Installing an App File
+## Installing an app file
 
 - open it in **Dolphin**, or
 - copy it to `~/Android/Inbox`, or
@@ -23,5 +22,5 @@ konkr-apk remove com.example.app
 !!! note
 
     Games whose anti-cheat blocks emulators won't run, and some apps may
-    still crash. The first launch downloads the Android runtime, which takes a
+    still crash. The first launch downloads the Android runtime. That takes a
     few minutes.

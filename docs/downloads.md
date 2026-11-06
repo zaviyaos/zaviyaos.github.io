@@ -6,10 +6,10 @@ hide:
 # Downloads
 
 Zaviya has one image per chip. Every release is on
-[GitHub Releases](https://github.com/hashtagbasit/SteamOS-ARM-Port/releases)
-together with its SHA-256 checksum.
+[GitHub Releases](https://github.com/hashtagbasit/SteamOS-ARM-Port/releases),
+with a SHA-256 checksum next to it.
 
-## Which Image Do I Need?
+## Which image do I need?
 
 | Your device | Image |
 |---|---|
@@ -19,17 +19,17 @@ together with its SHA-256 checksum.
 
 [Latest release](https://github.com/hashtagbasit/SteamOS-ARM-Port/releases/latest){ .md-button .md-button--primary }
 
-## Lenovo Tablets
+## Lenovo tablets
 
 The Lenovo Legion Y700 Gen 3 and Gen 4 builds are still being tested, so
-they aren't on the releases page yet. Ask on [Discord](https://discord.gg/EP53nZYvg)
-if you want to try one, and read the [Lenovo page](devices/lenovo.md) first.
+they aren't on the releases page yet. If you want to try one, read the
+[Lenovo page](devices/lenovo.md) first, then ask on [Discord](https://discord.gg/EP53nZYvg).
 
-## Update Files
+## Update files
 
-Devices already on 1.3 or newer update through Steam and don't need these.
+Devices on 1.3 or newer update through Steam and don't need these.
 The `steamos-arm-<chip>-<version>.sau` files on each release are for
-updating without internet, see [Updates](using/updates.md#without-internet).
+updating without internet. See [Updates](using/updates.md#without-internet).
 
 ## Apps
 
