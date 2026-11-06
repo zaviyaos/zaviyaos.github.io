@@ -2,7 +2,7 @@
 
 ## Overview
 
-The unofficial SteamOS ARM Port can install and run Android apps, with the Google Play
+Zaviya can install and run Android apps, with the Google Play
 Store included. A **Google Play Store** title appears in the library after
 the first sign-in.
 
@@ -14,7 +14,7 @@ full screen with touch, the controller and an on-screen keyboard.
 
 - open it in **Dolphin**, or
 - copy it to `~/Android/Inbox`, or
-- use **Loadout > Mine > Add a game or app**
+- use **Zaviya Loadout > Mine > Add a game or app**
 
 ```sh
 konkr-apk install Example.apkm

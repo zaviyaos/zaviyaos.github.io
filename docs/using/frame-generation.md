@@ -4,7 +4,7 @@
 
 Lossless Scaling frame generation runs through the decky-lsfg-vk plugin. It
 defaults to performance mode, which is what adds frames on Adreno GPUs.
-The unofficial SteamOS ARM Port adds an unmodified ARM64 build of
+Zaviya adds an unmodified ARM64 build of
 [lsfg-vk](https://lsfg-vk.dev) 2.0 by PancakeTAS for ARM64 games (CC BY-NC-ND
 4.0).
 

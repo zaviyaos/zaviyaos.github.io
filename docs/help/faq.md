@@ -9,7 +9,7 @@
 
     Game Mode, the Steam client and the desktop. On top of that the port
     adds the kernel and hardware support for each handheld, power and
-    fan tuning, updates through Steam, Loadout, Android apps and the dual
+    fan tuning, updates through Steam, Zaviya Loadout, Android apps and the dual
     screen launcher.
 
 ??? question "Does Android still work?"

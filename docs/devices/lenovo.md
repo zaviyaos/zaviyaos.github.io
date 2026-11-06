@@ -13,7 +13,7 @@
 
 ## How It's Different
 
-The tablets don't use the ROCKNIX ABL and have no microSD slot, so they work a
+The tablets don't use OpenABL and have no microSD slot, so they work a
 bit differently from the handhelds:
 
 - The image goes on a **USB drive** instead of a microSD card.

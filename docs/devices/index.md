@@ -2,7 +2,7 @@
 
 ## Overview
 
-The unofficial SteamOS ARM Port ships one image per chip. The device is picked in the ROCKNIX
+Zaviya ships one image per chip. The device is picked in the
 ABL menu on first boot, and the system sets itself up for it. Pick a maker to
 see its devices, their chip and any notes.
 
@@ -50,9 +50,9 @@ and say how it runs, even if everything works.
 
 | Chip | Image |
 |---|---|
-| Snapdragon 8 Gen 3 (SM8650) | `steamos-arm-port-sm8650` |
-| Snapdragon 8 Gen 2 (SM8550) | `steamos-arm-port-sm8550` |
-| Snapdragon 8 Elite (SM8750) | `steamos-arm-port-sm8750` |
+| Snapdragon 8 Gen 3 (SM8650) | `zaviya-sm8650` |
+| Snapdragon 8 Gen 2 (SM8550) | `zaviya-sm8550` |
+| Snapdragon 8 Elite (SM8750) | `zaviya-sm8750` |
 | Lenovo tablets | Test images, ask on [Discord](https://discord.gg/EP53nZYvg) |
 
 Get them from [Downloads](../downloads.md).

@@ -9,7 +9,7 @@
 The Pocket DMG has no Volume Down key, so the usual step in
 [Flash to a microSD Card](../getting-started/install.md) doesn't work as written.
 Restart while holding the button above the volume wheel instead, and the
-ROCKNIX ABL menu opens.
+ABL menu opens.
 
 ## Notes
 

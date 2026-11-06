@@ -1,15 +1,16 @@
-site_name: SteamOS ARM Port
-site_url: https://steamos-arm-port.github.io/
-site_description: Unofficial community port of SteamOS to ARM handhelds
+site_name: Zaviya
+site_url: https://steamos-arm-port.github.io/zaviya/
+site_description: Zaviya, for ARM handhelds. Based on Valve's SteamOS.
 repo_url: https://github.com/hashtagbasit/SteamOS-ARM-Port
-repo_name: hashtagbasit/SteamOS-ARM-Port
+repo_name: Zaviya on GitHub
 edit_uri: ""
 copyright: >-
-  Unofficial community project, not affiliated with or endorsed by Valve.
+  Based on Valve's SteamOS. Not affiliated with or endorsed by Valve.
   Steam and SteamOS are trademarks of Valve Corporation.
 
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/mark.svg
   favicon: assets/mark.svg
   font:
@@ -85,11 +86,11 @@ nav:
       - REDMAGIC: devices/redmagic.md
   - Getting Started:
       - Flash to a microSD Card: getting-started/install.md
-      - Flash the ROCKNIX ABL: getting-started/abl.md
+      - Flash OpenABL: getting-started/abl.md
       - Install to Internal Storage: getting-started/internal-storage.md
-  - Using the Port:
+  - Using Zaviya:
       - Updates: using/updates.md
-      - Loadout: using/loadout.md
+      - Zaviya Loadout: using/loadout.md
       - PC Games: using/pc-games.md
       - Frame Generation: using/frame-generation.md
       - Android Apps: using/android-apps.md

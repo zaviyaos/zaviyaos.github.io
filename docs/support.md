@@ -1,6 +1,6 @@
 # Support
 
-The unofficial SteamOS ARM Port is free and built in spare time. There are a
+Zaviya is free and built in spare time. There are a
 few ways to help it grow.
 
 ## Support Development
@@ -29,9 +29,9 @@ works, helps just as much. Starring the
 Thanks to these projects:
 
 - **SteamOS**, **FEX** and **Proton**.
-- **ROCKNIX**: kernel and device support, and the ROCKNIX ABL.
-- **ArmadaOS**: a few kernel patches.
-- **lsfg-vk**, **Heroic** and the emulators and apps in Loadout.
+- **ROCKNIX**: kernel and device support.
+- **Open Handheld Collective**: OpenABL, the bootloader menu.
+- **lsfg-vk**, **Heroic** and the emulators and apps in Zaviya Loadout.
 - Everyone testing and reporting back.
 
 The full list is in

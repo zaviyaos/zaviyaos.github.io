@@ -10,14 +10,18 @@ hide:
 
 <span class="hero__tag">Unofficial</span>
 
-# SteamOS ARM Port
+# Zaviya
 
-## An unofficial community port for Snapdragon handhelds
+## for ARM handhelds
 
 Brings a SteamOS experience to ARM gaming handhelds, with full hardware
 support, power tuning, its own app store and features built for handhelds.
 
-[Install the Unofficial Port](getting-started/install.md){ .md-button .md-button--primary }
+Based on Valve's SteamOS. Not affiliated with or endorsed by Valve.
+
+Zaviya used to be called SteamOS ARM Port, in case you are searching for that.
+
+[Install Zaviya](getting-started/install.md){ .md-button .md-button--primary }
 [Devices](devices/index.md){ .md-button }
 [Downloads](downloads.md){ .md-button }
 [:fontawesome-brands-discord: Discord](https://discord.gg/EP53nZYvg){ .md-button }
@@ -26,7 +30,7 @@ support, power tuning, its own app store and features built for handhelds.
 
 !!! warning "Unofficial community project"
 
-    The unofficial SteamOS ARM Port is not affiliated with or endorsed by Valve. Steam and
+    Zaviya is not affiliated with or endorsed by Valve. Steam and
     SteamOS are trademarks of Valve Corporation. Installing it replaces your
     device's bootloader, so read the install guide and back up your data
     first.
@@ -49,7 +53,7 @@ support, power tuning, its own app store and features built for handhelds.
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-package-variant-closed:</div>
     <div>
-      <strong>Loadout</strong>
+      <strong>Zaviya Loadout</strong>
       <p>Emulators, PC game stores and apps picked for your chip, with suggestions based on the games you have.</p>
     </div>
   </li>

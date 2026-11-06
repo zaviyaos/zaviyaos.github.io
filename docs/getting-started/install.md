@@ -2,7 +2,7 @@
 
 ## Overview
 
-The unofficial SteamOS ARM Port runs from a microSD card. Android stays on the device and
+Zaviya runs from a microSD card. Android stays on the device and
 can still be started from the ABL menu. Once it runs, the Pocket FIT and
 Pocket S2 can optionally be [installed to internal storage](internal-storage.md).
 
@@ -19,8 +19,8 @@ Pocket S2 can optionally be [installed to internal storage](internal-storage.md)
         extract the `.001` part first with 7-Zip, WinRAR, Keka or The
         Unarchiver.
 
-3. Flash the ROCKNIX ABL if your device doesn't have it yet, see
-   [Flash the ROCKNIX ABL](abl.md). Devices that already show the ROCKNIX ABL
+3. Flash OpenABL if your device doesn't have it yet, see
+   [Flash OpenABL](abl.md). Devices that already show the OpenABL
    menu skip this step.
 
 4. Insert the card, then hold **Volume Down** while powering on to open the
