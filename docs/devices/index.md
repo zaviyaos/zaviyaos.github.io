@@ -1,7 +1,7 @@
 # Supported Devices
 
 Zaviya ships one image per chip. The device is picked in the
-ABL menu on first boot, and the system sets itself up for it. Pick a maker to
+OpenABL menu on first boot, and the system sets itself up for it. Pick a maker to
 see its devices, their chip and any notes.
 
 <div class="grid cards" markdown>
@@ -22,7 +22,7 @@ see its devices, their chip and any notes.
 
     Retroid Pocket 6 and Retroid Pocket Nova
 
--   [**Lenovo**](lenovo.md) :material-flask-outline:{ .warn } Testing
+-   [**Lenovo**](lenovo.md) · In testing
 
     Legion Y700 Gen 3 and Gen 4
 
@@ -32,25 +32,6 @@ see its devices, their chip and any notes.
 
 </div>
 
-## Status
-
-| Status | Meaning |
-|---|---|
-| :material-check-circle:{ .ok } Tested | Someone has run the current release on it and reported back |
-| :material-circle-outline:{ .muted } Untested | Supported by the image, but nobody has reported on it yet |
-| :material-flask-outline:{ .warn } Testing | New port, test images only, looking for people to try it |
-
-Device pages are added when a model needs its own steps. Own one of the
-untested devices? [Open an issue](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues)
-and say how it runs, even if everything works.
-
-## Images
-
-| Chip | Image |
-|---|---|
-| Snapdragon 8 Gen 3 (SM8650) | `zaviya-sm8650` |
-| Snapdragon 8 Gen 2 (SM8550) | `zaviya-sm8550` |
-| Snapdragon 8 Elite (SM8750) | `zaviya-sm8750` |
-| Lenovo tablets | Test images, ask on [Discord](https://discord.gg/EP53nZYvg) |
-
-Get them from [Downloads](../downloads.md).
+Tested devices are marked on each page. Running Zaviya on a device that isn't
+marked? [Tell us how it runs](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues),
+even if everything works. Images are on [Downloads](../downloads.md).

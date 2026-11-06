@@ -1,16 +1,16 @@
 # Flash OpenABL
 
-The ABL is the part of the bootloader that starts the operating system. The
-stock one only starts Android, so it is replaced with
-[OpenABL](https://github.com/OpenHandheldCollective/OpenABL), which starts
-Zaviya from the microSD card or internal storage and still starts Android from
-its menu. OpenABL is made by the Open Handheld Collective and licensed under
-the GPL-3.0. Every image carries a copy for its chip.
+[OpenABL](https://github.com/OpenHandheldCollective/OpenABL) replaces the part
+of the bootloader that only knows how to start Android. It starts Zaviya from
+the microSD card or internal storage, and Android stays available from its menu.
+Every Zaviya image carries the right copy for its chip. OpenABL is made by the
+Open Handheld Collective and licensed under the GPL-3.0.
 
 !!! note
 
-    Already have an older version of it? It keeps working, you don't have to
-    change anything.
+    Already on OpenABL 1.2 or older? It keeps working, you don't have to change
+    anything. On a newer version, flash the copy from the image, since newer
+    versions don't start Zaviya's boot images.
 
 ## Steps
 
@@ -55,8 +55,6 @@ the GPL-3.0. Every image carries a copy for its chip.
 | Volume Up | Starts Android when the boot mode is Linux |
 
 To make Android the default again, set **Boot mode** to Android.
-
-menu. The frames are on the boot drive in `\logo`. This is only for OpenABL.
 
 ## Restoring the Previous ABL
 

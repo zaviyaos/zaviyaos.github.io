@@ -1,15 +1,13 @@
 # AYANEO Pocket DMG
 
-| Chip | Status |
-|---|---|
-| Snapdragon 8 Gen 2 (SM8550) | :material-check-circle:{ .ok } Tested |
+Snapdragon 8 Gen 2. :material-check-circle:{ .ok } Tested.
 
 ## Opening the ABL Menu
 
 The Pocket DMG has no Volume Down key, so the usual step in
 [Flash to a microSD Card](../getting-started/install.md) doesn't work as written.
 Restart while holding the button above the volume wheel instead, and the
-ABL menu opens.
+OpenABL menu opens.
 
 ## Notes
 

@@ -10,7 +10,7 @@ hide:
 
 # Zaviya { .sr-only }
 
-Brings a SteamOS experience to ARM gaming handhelds, with full hardware
+Valve's ARM build of SteamOS, reworked for gaming handhelds, with full hardware
 support, power tuning, its own app store and features built for handhelds.
 
 [Install Zaviya](getting-started/install.md){ .md-button .md-button--primary }
@@ -18,8 +18,8 @@ support, power tuning, its own app store and features built for handhelds.
 [Downloads](downloads.md){ .md-button }
 [:fontawesome-brands-discord: Discord](https://discord.gg/EP53nZYvg){ .md-button }
 
-Unofficial community project based on Valve's SteamOS. Not affiliated with or
-endorsed by Valve. Formerly SteamOS ARM Port.
+Based on Valve's SteamOS. Not affiliated with or endorsed by Valve.
+Formerly SteamOS ARM Port.
 { .hero__note }
 
 </div>
@@ -28,6 +28,41 @@ endorsed by Valve. Formerly SteamOS ARM Port.
 
     Installing Zaviya replaces your device's bootloader. Read the install guide
     and back up your data first.
+
+## What Makes Zaviya Different
+
+<ul class="features" role="list" markdown="1">
+  <li markdown="1">
+    <div class="features__icon" aria-hidden="true">:material-layers-triple-outline:</div>
+    <div>
+      <strong>The Real SteamOS Base</strong>
+      <p>Zaviya starts from Valve's own ARM build of SteamOS, the one made for Steam Frame, then removes what a handheld doesn't need and fixes the rest. It isn't a different Linux made to look like SteamOS.</p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="features__icon" aria-hidden="true">:material-chart-timeline-variant-shimmer:</div>
+    <div>
+      <strong>Frame Generation Included</strong>
+      <p>Lossless Scaling frame generation tuned for Adreno GPUs, with an ARM64 build of lsfg-vk for native ARM games too.</p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="features__icon" aria-hidden="true">:material-package-variant-closed:</div>
+    <div>
+      <strong>A Store That Knows Your Games</strong>
+      <p>Zaviya Loadout looks at the games you have, then suggests the emulators and apps to play them, picked for your chip.</p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="features__icon" aria-hidden="true">:material-monitor-multiple:</div>
+    <div>
+      <strong>A Second Screen With a Job</strong>
+      <p>On the AYN Thor and AYANEO Pocket DS the bottom screen gets its own launcher, game tools, live dashboard and a trackpad with swipe typing.</p>
+    </div>
+  </li>
+</ul>
+
+## Everything Else You Get
 
 <ul class="features" role="list" markdown="1">
   <li markdown="1">
@@ -42,13 +77,6 @@ endorsed by Valve. Formerly SteamOS ARM Port.
     <div>
       <strong>Updates Through Steam</strong>
       <p>Signed updates from Settings > System. No reflashing, and a failed update rolls back on its own.</p>
-    </div>
-  </li>
-  <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-package-variant-closed:</div>
-    <div>
-      <strong>Zaviya Loadout</strong>
-      <p>Emulators, PC game stores and apps picked for your chip, with suggestions based on the games you have.</p>
     </div>
   </li>
   <li markdown="1">
@@ -73,17 +101,24 @@ endorsed by Valve. Formerly SteamOS ARM Port.
     </div>
   </li>
   <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-monitor-multiple:</div>
-    <div>
-      <strong>Dual Screen</strong>
-      <p>On the AYN Thor and AYANEO Pocket DS the bottom screen gets its own launcher, dashboard and themes.</p>
-    </div>
-  </li>
-  <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-android:</div>
     <div>
       <strong>Android Apps</strong>
       <p>Install and run Android apps, Play Store included. Each one shows up in your library.</p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="features__icon" aria-hidden="true">:material-cast-connected:</div>
+    <div>
+      <strong>Stream and Dock</strong>
+      <p>Steam Remote Play with hardware decoding, and Game Mode on an external monitor with sound.</p>
+    </div>
+  </li>
+  <li markdown="1">
+    <div class="features__icon" aria-hidden="true">:material-harddisk:</div>
+    <div>
+      <strong>microSD or Internal</strong>
+      <p>Run it from a microSD card, or install it to internal storage with Android still on the device.</p>
     </div>
   </li>
 </ul>

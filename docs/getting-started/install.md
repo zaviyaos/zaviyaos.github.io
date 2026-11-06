@@ -1,7 +1,7 @@
 # Flash to a microSD Card
 
 Zaviya runs from a microSD card. Android stays on the device and
-can still be started from the ABL menu. Once it runs, the Pocket FIT and
+can still be started from the OpenABL menu. Once it runs, the Pocket FIT and
 Pocket S2 can optionally be [installed to internal storage](internal-storage.md).
 
 ## Steps
@@ -22,7 +22,7 @@ Pocket S2 can optionally be [installed to internal storage](internal-storage.md)
    menu skip this step.
 
 4. Insert the card, then hold **Volume Down** while powering on to open the
-   ABL menu.
+   OpenABL menu.
 
     !!! note
 

@@ -46,7 +46,7 @@ Zaviya keeps booting from internal storage.
 
 ## Black Screen After Booting
 
-- Check the device model in the ABL menu matches your device exactly.
+- Check the device model in the OpenABL menu matches your device exactly.
 - Re-flash the card. An interrupted flash is the most common cause.
 - Collect [debug logs](#debug-logs) and open an issue.
 

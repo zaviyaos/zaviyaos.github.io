@@ -1,8 +1,8 @@
 # REDMAGIC
 
-| Device | Chip | Status | Notes |
-|---|---|---|---|
-| REDMAGIC 6 (NX669J) | Snapdragon 888 | :material-wrench:{ .warn } Build it yourself | North America / global model |
+| Device | Chip | Notes |
+|---|---|---|
+| REDMAGIC 6 (NX669J) | Snapdragon 888 | North America / global model |
 
 There's no ready-made image for phones. The REDMAGIC 6 is built and flashed
 from source, see the [REDMAGIC 6 guide](https://github.com/hashtagbasit/SteamOS-ARM-Port/blob/main/docs/redmagic6.md).

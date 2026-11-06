@@ -6,10 +6,10 @@
     yet. If you own one and want to help, join the
     [Discord](https://discord.gg/EP53nZYvg) and ask for the test image.
 
-| Device | Chip | Status | Notes |
+| Device | Chip | Tested | Notes |
 |---|---|---|---|
-| Lenovo Legion Y700 Gen 3 (TB321FU) | 8 Gen 3 | :material-flask-outline:{ .warn } Testing | BOE and CSOT screens both supported |
-| Lenovo Legion Y700 Gen 4 (TB322FC) | 8 Elite | :material-flask-outline:{ .warn } Testing | Chinese model only. The TB323FU is a different chip and isn't supported |
+| Lenovo Legion Y700 Gen 3 (TB321FU) | 8 Gen 3 | In testing | BOE and CSOT screens both supported |
+| Lenovo Legion Y700 Gen 4 (TB322FC) | 8 Elite | In testing | Chinese model only. The TB323FU is a different chip and isn't supported |
 
 ## How It's Different
 

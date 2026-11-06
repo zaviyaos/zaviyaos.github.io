@@ -7,7 +7,7 @@ function labelTables() {
     t.querySelectorAll("tbody tr").forEach(tr =>
       [...tr.children].forEach((td, i) => {
         td.dataset.label = heads[i] || "";
-        if (td.textContent.trim() === "—") td.classList.add("is-empty");
+        if (!td.textContent.trim()) td.classList.add("is-empty");
       }));
   });
 }

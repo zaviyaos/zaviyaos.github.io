@@ -38,12 +38,6 @@
 .md-search__form { background-color: var(--z-surface); border: 1px solid var(--z-line); border-radius: 8px; }
 .md-search__form:hover { background-color: var(--z-surface-hover); }
 .md-header__button.md-logo img { height: 1.3rem; }
-.md-header__topic:first-child .md-ellipsis::after {
-  content: "Unofficial"; display: inline-block; vertical-align: .12em; margin-left: .55rem;
-  padding: .02rem .45rem; border: 1px solid var(--z-line); border-radius: 999px;
-  font-size: .52rem; font-weight: 600; letter-spacing: .08em; line-height: 1.5;
-  text-transform: uppercase; color: var(--z-muted);
-}
 
 /* page text */
 .md-typeset h1 { margin-bottom: 1rem; color: var(--z-text); font-weight: 700; letter-spacing: -.02em; }
@@ -128,7 +122,6 @@
 
 /* phones: every table becomes one card per row */
 @media (max-width: 640px) {
-  .md-header__topic:first-child .md-ellipsis::after { display: none; }
   .hero { padding: 2rem 0 1.2rem; }
   .md-typeset .hero__logo { width: min(17rem, 78%); margin-bottom: 1.3rem; }
   .md-typeset .hero .md-button { display: block; margin: .4rem 0; text-align: center; }

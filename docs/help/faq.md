@@ -2,8 +2,15 @@
 
 ??? question "Is this made by Valve?"
 
-    No. This is an unofficial community port and isn't
-    affiliated with Valve. Please don't contact Valve about it.
+    No. Zaviya is a community project and isn't affiliated with Valve. Please
+    don't contact Valve about it.
+
+??? question "How is it different from other handheld systems?"
+
+    Zaviya starts from Valve's own ARM build of SteamOS instead of a different
+    Linux made to look like it. It also includes frame generation, a store that
+    suggests what to install from the games you have, and a full second-screen
+    interface on dual screen devices.
 
 ??? question "What's in it?"
 
@@ -14,7 +21,7 @@
 
 ??? question "Does Android still work?"
 
-    Yes. Android stays on the device and starts from the ABL menu. Installing
+    Yes. Android stays on the device and starts from the OpenABL menu. Installing
     to internal storage erases Android's user data, but Android itself stays.
 
 ??? question "Do Windows games run?"
@@ -30,7 +37,7 @@
 ??? question "How do I go back to only Android?"
 
     Remove the microSD card. If it was installed to internal storage, choose
-    **UNINSTALL CFW** in the ABL menu, or restore the saved partition table,
+    **UNINSTALL CFW** in the OpenABL menu, or restore the saved partition table,
     see [Install to Internal Storage](../getting-started/internal-storage.md#giving-the-space-back-to-android).
 
 ??? question "My device isn't listed"
