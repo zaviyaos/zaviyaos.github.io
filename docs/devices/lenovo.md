@@ -3,7 +3,7 @@
 !!! info "In testing"
 
     The tablet builds are in testing and are distributed through the
-    [Discord](https://discord.gg/EP53nZYvg) first. Owners who want to take part
+    [Discord](https://discord.gg/e2Cn85uQh9) first. Owners who want to take part
     can ask there for the test image.
 
 | Device | Chip | Status | Notes |

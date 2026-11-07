@@ -41,5 +41,5 @@ on devices that support it.
 ## Reporting a result
 
 Reports of games that run, and games that do not, help other owners. Share them
-in the [Discord](https://discord.gg/EP53nZYvg) or as a
+in the [Discord](https://discord.gg/e2Cn85uQh9) or as a
 [GitHub issue](https://github.com/hashtagbasit/Zaviya/issues).

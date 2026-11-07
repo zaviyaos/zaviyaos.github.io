@@ -6,7 +6,7 @@ Answers to common questions. More help is in [Troubleshooting](troubleshooting.m
 
     No. Zaviya is an independent community project. Report problems on
     [GitHub](https://github.com/hashtagbasit/Zaviya/issues) or in the
-    [Discord](https://discord.gg/EP53nZYvg), not to Steam Support.
+    [Discord](https://discord.gg/e2Cn85uQh9), not to Steam Support.
 
 ??? question "What is it based on?"
 

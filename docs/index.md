@@ -17,7 +17,7 @@ tablets, with emulation, PC games and Android apps in the same system.
 [Install Zaviya](getting-started/install.md){ .md-button .md-button--primary }
 [Devices](devices/index.md){ .md-button }
 [Downloads](downloads.md){ .md-button }
-[:fontawesome-brands-discord: Discord](https://discord.gg/EP53nZYvg){ .md-button }
+[:fontawesome-brands-discord: Discord](https://discord.gg/e2Cn85uQh9){ .md-button }
 
 Formerly known as Unofficial SteamOS ARM Port. An independent community project.
 { .hero__note }

@@ -35,7 +35,7 @@ release are for the updater and the Android installer and aren't needed on a com
 ## Lenovo tablets
 
 The Legion Y700 Gen 3, Gen 4 and Gen 5 builds are in testing and are not on the
-releases page. They are published in the [Discord](https://discord.gg/EP53nZYvg)
+releases page. They are published in the [Discord](https://discord.gg/e2Cn85uQh9)
 first. Read the [Lenovo page](devices/lenovo.md), then ask there.
 
 ## Update files

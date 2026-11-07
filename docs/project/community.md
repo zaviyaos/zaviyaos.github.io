@@ -7,7 +7,7 @@ and donations all go to the channels below.
 
 | Need | Where |
 |---|---|
-| Install help and general questions | [Discord](https://discord.gg/EP53nZYvg) |
+| Install help and general questions | [Discord](https://discord.gg/e2Cn85uQh9) |
 | Bug reports and device requests | [GitHub issues](https://github.com/hashtagbasit/Zaviya/issues) |
 | Self-service answers | [Troubleshooting](../help/troubleshooting.md), [Known issues](../help/known-issues.md) and the [FAQ](../help/faq.md) |
 
@@ -26,7 +26,7 @@ project reach them.
 
 A new handheld is added only when someone can test it. A spare device,
 supported or not, is the fastest way to get it supported. Contact the project on
-[Discord](https://discord.gg/EP53nZYvg) or
+[Discord](https://discord.gg/e2Cn85uQh9) or
 [GitHub](https://github.com/hashtagbasit/Zaviya/issues).
 
 ## Support development
