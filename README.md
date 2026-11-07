@@ -13,9 +13,9 @@ pip install "mkdocs<2" mkdocs-material
 mkdocs serve
 ```
 
-Then open http://127.0.0.1:8000/zaviya/.
+Then open http://127.0.0.1:8000/.
 
 ## Publishing
 
 1. In the repo's **Settings > Pages**, set **Source** to **GitHub Actions**.
-2. Push to `main`. The site is live at https://steamos-arm-port.github.io/zaviya/ a minute later.
+2. Push to `main`. The site is live at https://zaviyaos.github.io/ a minute later.
