@@ -1,7 +1,7 @@
 # About Zaviya
 
 Zaviya is an operating system for ARM handhelds and tablets, based on the
-SteamOS ARM image from Steam Frame. It provides Game Mode, the Steam client, a
+SteamOS for ARM. It provides Game Mode, the Steam client, a
 KDE desktop, PC games through FEX and Proton, emulation and Android apps.
 
 Formerly known as Unofficial SteamOS ARM Port.

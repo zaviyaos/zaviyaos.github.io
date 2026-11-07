@@ -1,6 +1,6 @@
 site_name: Zaviya
 site_url: https://steamos-arm-port.github.io/zaviya/
-site_description: Zaviya, for ARM handhelds. Based on the SteamOS ARM image from Steam Frame.
+site_description: Zaviya, for ARM handhelds. Based on SteamOS for ARM.
 repo_url: https://github.com/hashtagbasit/Zaviya
 repo_name: Zaviya on GitHub
 edit_uri: ""

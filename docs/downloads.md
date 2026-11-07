@@ -22,15 +22,15 @@ includes a SHA-256 checksum.
 
 ## Which image
 
-| Device | Image |
+| Device | Image files (name contains) |
 |---|---|
-| AYN Odin 3, KONKR Pocket FIT Elite | `zaviya-sm8750-<version>.7z.001` and later parts |
-| KONKR Pocket FIT, AYANEO Pocket S2 / S2 Pro | `zaviya-sm8650-<version>.7z.001` and later parts |
-| AYN Odin 2 / Mini / Portal / Thor, AYANEO Pocket ACE / DMG / DS / EVO / S 1K / S 2K, Retroid Pocket 6 / Nova | `zaviya-sm8550-<version>.7z.001` and later parts |
-| Retroid Pocket 5 / Flip 2 / Mini / Mini V2, AYN Thor Lite, MANGMI Air Y Pro / Pocket Max, AYANEO Pocket MICRO 2 (Beta) | `zaviya-sm8250-<version>.7z.001` and later parts |
+| AYN Odin 3, KONKR Pocket FIT Elite | `sm8750` `.7z` parts |
+| KONKR Pocket FIT, AYANEO Pocket S2 / S2 Pro | `sm8650` `.7z` parts |
+| AYN Odin 2 / Mini / Portal / Thor, AYANEO Pocket ACE / DMG / DS / EVO / S 1K / S 2K, Retroid Pocket 6 / Nova | `sm8550` `.7z` parts |
+| Retroid Pocket 5 / Flip 2 / Mini / Mini V2, AYN Thor Lite, MANGMI Air Y Pro / Pocket Max, AYANEO Pocket MICRO 2 (Beta) | `sm8250` `.7z` parts |
 
-Each image includes the OpenABL copy for its chip. The `.img.zst` parts on each
-release are for the Android installer and aren't needed on a computer.
+Each image includes the OpenABL copy for its chip. The other files on each
+release are for the updater and the Android installer and aren't needed on a computer.
 
 ## Lenovo tablets
 

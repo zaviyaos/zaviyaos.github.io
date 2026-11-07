@@ -10,7 +10,7 @@ hide:
 
 # Zaviya { .sr-only }
 
-Based on the SteamOS ARM image from Steam Frame, not another skin. Game Mode,
+Based on SteamOS for ARM, not another skin. Game Mode,
 the Steam client and a KDE desktop run natively on supported ARM handhelds and
 tablets, with emulation, PC games and Android apps in the same system.
 

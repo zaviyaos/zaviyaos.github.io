@@ -10,7 +10,7 @@ Answers to common questions. More help is in [Troubleshooting](troubleshooting.m
 
 ??? question "What is it based on?"
 
-    The SteamOS ARM image from Steam Frame. On top of that Zaviya adds frame
+    SteamOS for ARM. On top of that Zaviya adds frame
     generation, Zaviya Loadout (which suggests apps from the games in the
     library) and a launcher for the second screen on dual screen devices.
 
