@@ -16,5 +16,5 @@
 
 !!! note
 
-    Not listed here? [Open an issue](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues)
+    Not listed here? [Open an issue](https://github.com/hashtagbasit/Zaviya/issues)
     with the device model and the [debug logs](troubleshooting.md#debug-logs).

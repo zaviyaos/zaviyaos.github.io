@@ -42,4 +42,4 @@ on devices that support it.
 
 Reports of games that run, and games that do not, help other owners. Share them
 in the [Discord](https://discord.gg/EP53nZYvg) or as a
-[GitHub issue](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues).
+[GitHub issue](https://github.com/hashtagbasit/Zaviya/issues).

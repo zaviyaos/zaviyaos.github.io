@@ -16,7 +16,7 @@ boot.
 ## Without internet
 
 1. Download the `steamos-arm-<chip>-<version>.sau` file for the device's chip from
-   [Releases](https://github.com/hashtagbasit/SteamOS-ARM-Port/releases).
+   [Releases](https://github.com/hashtagbasit/Zaviya/releases).
 2. Copy it to a microSD card or USB drive and plug it in.
 3. Select **Check for updates**. The update is found on the drive.
 

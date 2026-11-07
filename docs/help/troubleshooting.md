@@ -2,7 +2,7 @@
 
 Start with the matching section below. For problems that are not listed, collect
 [debug logs](#debug-logs) and open a
-[GitHub issue](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues) with the
+[GitHub issue](https://github.com/hashtagbasit/Zaviya/issues) with the
 device model. [Known issues](known-issues.md) lists problems already reported.
 
 ## Debug logs
@@ -10,7 +10,7 @@ device model. [Known issues](known-issues.md) lists problems already reported.
 1. Put an empty file called `debug` on the microSD card's **BOOT** drive.
 2. Boot, and reproduce the problem.
 3. Attach the `debug-logs` folder from the **BOOT** drive to a
-   [GitHub issue](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues).
+   [GitHub issue](https://github.com/hashtagbasit/Zaviya/issues).
 
 ## Android doesn't start after installing to internal storage
 

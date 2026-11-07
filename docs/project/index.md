@@ -26,7 +26,7 @@ Per-device status is on [Supported devices](../devices/index.md).
 
 The project's own scripts and overlays are GPL-2.0. Everything in
 `external-and-mods/` keeps its own licence. See
-[LICENSE](https://github.com/hashtagbasit/SteamOS-ARM-Port/blob/main/LICENSE).
+[LICENSE](https://github.com/hashtagbasit/Zaviya/blob/main/LICENSE).
 
 Zaviya is an independent community project. Steam and SteamOS are trademarks of
 their owner, used only to state what Zaviya is based on. Do not contact Steam
@@ -35,11 +35,11 @@ Support about Zaviya.
 ## Building from source
 
 Images are built from the
-[repository](https://github.com/hashtagbasit/SteamOS-ARM-Port) on an ARM64 Linux
+[repository](https://github.com/hashtagbasit/Zaviya) on an ARM64 Linux
 machine. See
-[building.md](https://github.com/hashtagbasit/SteamOS-ARM-Port/blob/main/docs/building.md)
+[building.md](https://github.com/hashtagbasit/Zaviya/blob/main/docs/building.md)
 and
-[HOW-IT-WORKS.md](https://github.com/hashtagbasit/SteamOS-ARM-Port/blob/main/docs/HOW-IT-WORKS.md).
+[HOW-IT-WORKS.md](https://github.com/hashtagbasit/Zaviya/blob/main/docs/HOW-IT-WORKS.md).
 
 ## Community and credits
 

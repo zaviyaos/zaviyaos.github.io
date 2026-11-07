@@ -6,4 +6,4 @@
 
 No ready-made image exists for phones. The REDMAGIC 6 is built and flashed from
 source, following the
-[REDMAGIC 6 guide](https://github.com/hashtagbasit/SteamOS-ARM-Port/blob/main/docs/redmagic6.md).
+[REDMAGIC 6 guide](https://github.com/hashtagbasit/Zaviya/blob/main/docs/redmagic6.md).

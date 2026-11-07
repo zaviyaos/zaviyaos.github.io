@@ -60,5 +60,5 @@ The image for each chip is listed on [Downloads](../downloads.md).
 
 Most testing is done by the community. To report how a device runs, including
 when everything works, open a
-[GitHub issue](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues). If a
+[GitHub issue](https://github.com/hashtagbasit/Zaviya/issues). If a
 device is not listed, see the [FAQ](../help/faq.md).

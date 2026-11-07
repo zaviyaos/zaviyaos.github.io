@@ -1,6 +1,6 @@
 # Zaviya website
 
-The website for [Zaviya](https://github.com/hashtagbasit/SteamOS-ARM-Port),
+The website for [Zaviya](https://github.com/hashtagbasit/Zaviya),
 built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and
 published to GitHub Pages on every push to `main`.
 

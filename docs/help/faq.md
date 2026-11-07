@@ -5,7 +5,7 @@ Answers to common questions. More help is in [Troubleshooting](troubleshooting.m
 ??? question "Is this an official SteamOS release?"
 
     No. Zaviya is an independent community project. Report problems on
-    [GitHub](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues) or in the
+    [GitHub](https://github.com/hashtagbasit/Zaviya/issues) or in the
     [Discord](https://discord.gg/EP53nZYvg), not to Steam Support.
 
 ??? question "What is it based on?"
@@ -45,6 +45,6 @@ Answers to common questions. More help is in [Troubleshooting](troubleshooting.m
 
     Every device needs its own hardware support, and new devices are added over
     time. Request one on
-    [GitHub issues](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues). A
+    [GitHub issues](https://github.com/hashtagbasit/Zaviya/issues). A
     spare device sent for development is the fastest route, see
     [Community](../project/community.md#send-a-device).

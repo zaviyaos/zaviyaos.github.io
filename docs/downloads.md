@@ -6,7 +6,7 @@ hide:
 # Downloads
 
 Zaviya ships one image per chip. Every release on
-[GitHub Releases](https://github.com/hashtagbasit/SteamOS-ARM-Port/releases)
+[GitHub Releases](https://github.com/hashtagbasit/Zaviya/releases)
 includes a SHA-256 checksum.
 
 ## Download and install
@@ -17,7 +17,7 @@ includes a SHA-256 checksum.
 4. Extract the `.001` part. This produces the `.img` file to flash.
 5. Follow the [install guide](getting-started/install.md).
 
-[Latest release](https://github.com/hashtagbasit/SteamOS-ARM-Port/releases/latest){ .md-button .md-button--primary }
+[Latest release](https://github.com/hashtagbasit/Zaviya/releases/latest){ .md-button .md-button--primary }
 [Install guide](getting-started/install.md){ .md-button }
 
 ## Which image
