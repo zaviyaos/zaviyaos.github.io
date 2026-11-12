@@ -35,8 +35,6 @@ on devices that support it.
 ## Display and audio
 
 - Game Mode runs on an external monitor or dock, with sound.
-- On Snapdragon 8 Elite devices (AYN Odin 3, KONKR Pocket FIT Elite) there is no
-  audio over HDMI or DisplayPort yet, see [Known issues](help/known-issues.md).
 
 ## Reporting a result
 
