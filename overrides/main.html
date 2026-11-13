@@ -3,3 +3,10 @@
   <meta property="og:image" content="{{ config.site_url }}assets/og.png">
   <meta name="twitter:card" content="summary_large_image">
 {% endblock %}
+{% block tabs %}{% endblock %}
+{% block content %}
+  {% if page.parent and not page.is_homepage %}
+    <p class="z-crumb">{{ page.parent.title }}</p>
+  {% endif %}
+  {% include "partials/content.html" %}
+{% endblock %}

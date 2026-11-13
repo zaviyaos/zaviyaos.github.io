@@ -48,3 +48,18 @@ SSH is off by default.
 
 Root login is disabled, so use `sudo`. Turn SSH off again with
 `sudo systemctl disable --now sshd`.
+
+## Steam client beta and PyroWave
+
+Both are off by default. Each is turned on by creating a file in
+`~/.local/share/Steam` and restarting Steam.
+
+- `touch ~/.local/share/Steam/.allow-client-updates` lets the Steam client
+  update and follow the beta channel chosen in Steam's settings. Without the
+  file, client updates stay blocked. Removing it blocks future updates again but
+  does not roll the client back.
+- `touch ~/.local/share/Steam/.pyrowave-box64` turns on the PyroWave codec for
+  Remote Play on Snapdragon 8 Gen 2 handhelds. The arm64 streaming client has no
+  PyroWave decoder, so the x86 one from the client beta runs under box64.
+  Steam's settings still show PyroWave greyed out, but the stream uses it when
+  the host offers it. Delete the file and restart Steam to go back.

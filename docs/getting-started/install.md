@@ -16,16 +16,16 @@ Android stays on the device and starts from the OpenABL menu. The 8 Elite, 8 Gen
 
 ## Steps
 
-1. Download the image for the device's chip from [Downloads](../downloads.md).
+1. Download the image for the handheld from [Releases](../downloads.md).
 
 2. Flash it to a 32 GB or larger microSD card (A2 speed is best).
 
     !!! note
 
-        Common flashing tools are [balenaEtcher](https://etcher.balena.io/)
-        and [Rufus](https://rufus.ie/). Images come in `.7z` parts: keep them
-        in one folder and extract the `.001` part first with 7-Zip, WinRAR,
-        Keka or The Unarchiver.
+        [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and
+        [Rufus](https://rufus.ie/) 4.7 or newer flash the `.img.zst` file
+        directly. For [balenaEtcher](https://etcher.balena.io/), extract the
+        `.img` first with 7-Zip 24.01 or newer, PeaZip or Keka.
 
 3. Flash OpenABL if the device doesn't have it yet, see
    [Flash OpenABL](abl.md). Devices that already show the OpenABL menu skip
@@ -45,6 +45,9 @@ Android stays on the device and starts from the OpenABL menu. The 8 Elite, 8 Gen
     !!! note
 
         On the AYANEO Pocket S2 Pro, select **AYANEO Pocket S2**.
+        On the Retroid Pocket 5 and Pocket Flip 2, if the screen stays black,
+        select the **Visionox** entry of the same model. It covers units built
+        with the second panel type.
 
 6. Wait for the first boot, which takes a few minutes. Sign in to Steam when
    prompted.

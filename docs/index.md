@@ -1,26 +1,36 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
 <div class="hero" markdown>
 
-![Zaviya, for ARM handhelds](assets/logo.svg){ .hero__logo }
+<div class="hero__copy" markdown>
 
-# Zaviya { .sr-only }
+<p class="hero__kicker">For ARM handhelds</p>
 
-Based on SteamOS for ARM, not another skin. Game Mode,
-the Steam client and a KDE desktop run natively on supported ARM handhelds and
-tablets, with emulation, PC games and Android apps in the same system.
+# Zaviya
 
-[Install Zaviya](getting-started/install.md){ .md-button .md-button--primary }
-[Devices](devices/index.md){ .md-button }
-[Downloads](downloads.md){ .md-button }
-[:fontawesome-brands-discord: Discord](https://discord.gg/e2Cn85uQh9){ .md-button }
+Based on SteamOS for ARM, not another skin. Game Mode, the Steam client and a
+KDE desktop run natively on supported ARM handhelds.
 
-Formerly known as Unofficial SteamOS ARM Port. An independent community project.
+[Releases](downloads.md){ .md-button .md-button--primary }
+[Install guide](getting-started/install.md){ .md-button }
+
+Formerly known as Unofficial SteamOS ARM Port.
 { .hero__note }
+
+</div>
+
+<div class="hero__panel" markdown>
+
+![Zaviya](assets/frame.svg){ .hero__mark }
+
+<p class="hero__version">Version 1.5</p>
+
+<p class="hero__chips">Snapdragon 8 Elite · 8 Gen 3 · 8 Gen 2 · 865</p>
+
+</div>
 
 </div>
 
@@ -28,169 +38,172 @@ Formerly known as Unofficial SteamOS ARM Port. An independent community project.
 
     Installation replaces the device's bootloader. Back up data first.
 
+## Pick a chip
 
-## Features
+<div class="chiprow" markdown>
 
-<ul class="features" role="list" markdown="1">
-  <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-layers-triple-outline:</div>
-    <div>
-      <strong>Tuned base system</strong>
-      <p>Services that fail on a handheld are turned off, the interface runs on the fast cores, the GPU clocks up under load and standby no longer drains the battery.</p>
-    </div>
-  </li>
-  <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-chart-timeline-variant-shimmer:</div>
-    <div>
-      <strong>Frame generation</strong>
-      <p>Lossless Scaling frame generation through Decky, in performance mode on Adreno GPUs. lsfg-vk 2.0 includes an ARM64 build for native ARM games.</p>
-    </div>
-  </li>
-  <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-package-variant-closed:</div>
-    <div>
-      <strong>Zaviya Loadout</strong>
-      <p>The built-in app store. It counts the games in the library per system, names the emulator for each system nothing plays yet, and installs a starter set chosen for the device's chip.</p>
-    </div>
-  </li>
-  <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-monitor-multiple:</div>
-    <div>
-      <strong>Dual screen</strong>
-      <p>On the AYN Thor and AYANEO Pocket DS the bottom screen carries a launcher, game tools, a dashboard with themes, and a trackpad with swipe typing.</p>
-    </div>
-  </li>
-  <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-update:</div>
-    <div>
-      <strong>Updates and rollback</strong>
-      <p>Updates arrive through Settings > System without reflashing. They are signed and verified, and an interrupted update rolls back on the next boot.</p>
-    </div>
-  </li>
-  <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-harddisk:</div>
-    <div>
-      <strong>Dual boot with Android</strong>
-      <p>Zaviya runs from a microSD card, or installs to internal storage next to Android. The OpenABL menu chooses between them at power-on.</p>
-    </div>
-  </li>
-</ul>
+[<span class="chipcard__name">Snapdragon 8 Elite</span><span class="chipcard__code">sm8750</span><span class="chipcard__n">2 devices</span>](downloads.md#sm8750){ .chipcard }
 
-## Included
+[<span class="chipcard__name">Snapdragon 8 Gen 3</span><span class="chipcard__code">sm8650</span><span class="chipcard__n">3 devices</span>](downloads.md#sm8650){ .chipcard }
 
-<ul class="features" role="list" markdown="1">
-  <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-steam:</div>
-    <div>
-      <strong>Game Mode and desktop</strong>
-      <p>Game Mode, the Steam client and a KDE desktop, all running natively on ARM.</p>
-    </div>
-  </li>
-  <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-gamepad-variant-outline:</div>
-    <div>
-      <strong>Controller</strong>
-      <p>The handheld's controller appears to Steam as a Steam Deck pad. Decky and the performance overlay are included.</p>
-    </div>
-  </li>
-  <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-plus-box-multiple-outline:</div>
-    <div>
-      <strong>Add games from files</strong>
-      <p>Windows games, console game files, Linux apps and Android apps are added to the Steam library with artwork.</p>
-    </div>
-  </li>
-  <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-store-outline:</div>
-    <div>
-      <strong>Epic, GOG and Amazon</strong>
-      <p>Heroic, built for ARM64, installs the store libraries. The games launch from Steam with Proton.</p>
-    </div>
-  </li>
-  <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-android:</div>
-    <div>
-      <strong>Android apps</strong>
-      <p>The Play Store is available and each app gets its own title in the library. Zaviya Control includes a Restart into Android button.</p>
-    </div>
-  </li>
-  <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-cast-connected:</div>
-    <div>
-      <strong>Remote Play and docking</strong>
-      <p>Steam Remote Play with hardware decoding and optional PyroWave. Game Mode also runs on an external monitor or dock, with sound.</p>
-    </div>
-  </li>
-  <li markdown="1">
-    <div class="features__icon" aria-hidden="true">:material-sleep:</div>
-    <div>
-      <strong>Sleep and power</strong>
-      <p>Sleep works on every supported chip, fan curves are quiet, and the device powers off cleanly before the battery runs flat.</p>
-    </div>
-  </li>
-</ul>
+[<span class="chipcard__name">Snapdragon 8 Gen 2</span><span class="chipcard__code">sm8550</span><span class="chipcard__n">12 devices</span>](downloads.md#sm8550){ .chipcard }
 
-## Install in three steps
-
-1. Flash the image for the device's chip to a microSD card (32 GB or larger).
-2. Flash OpenABL, the boot menu. Back up the stock ABL first.
-3. Hold Volume Down at power-on, choose the device, set the boot mode to Linux and select START. The first boot takes a few minutes.
-
-The [install guide](getting-started/install.md) covers every step, and each chip
-has its own image on [Downloads](downloads.md). Tablets do not use OpenABL, see
-the [Lenovo page](devices/lenovo.md).
-
-## Supported hardware
-
-<div class="grid cards chips" markdown>
-
--   :material-check-circle:{ .ok } **Snapdragon 8 Elite** · Stable
-
-    AYN Odin 3, KONKR Pocket FIT Elite
-
--   :material-check-circle:{ .ok } **Snapdragon 8 Gen 3** · Stable
-
-    KONKR Pocket FIT, AYANEO Pocket S2 / S2 Pro
-
--   :material-check-circle:{ .ok } **Snapdragon 8 Gen 2** · Stable
-
-    AYN Odin 2 / Mini / Portal / Thor, AYANEO Pocket ACE / DMG / DS / EVO /
-    S 1K / S 2K, Retroid Pocket 6 / Nova
-
--   :material-flask-outline:{ .warn } **Snapdragon 865** · Beta
-
-    Retroid Pocket 5 / Flip 2 / Mini / Mini V2, AYN Thor Lite, MANGMI Air Y Pro /
-    Pocket Max, AYANEO Pocket MICRO 2
-
--   :material-flask-outline:{ .warn } **Lenovo Legion Y700** · Testing
-
-    Gen 3 and Gen 4 are in testing. Gen 5 (TB323FU, Snapdragon 8 Elite Gen 5)
-    runs from a microSD card and is switched on from Android.
-    [Lenovo page](devices/lenovo.md)
+[<span class="chipcard__name">Snapdragon 865</span><span class="chipcard__code">sm8250</span><span class="chipcard__n">8 devices, beta</span>](downloads.md#sm8250){ .chipcard }
 
 </div>
 
-[Supported devices](devices/index.md) lists every device by maker, with its
-chip, test status and notes. Most testing is done by the community.
+[Supported devices](devices/index.md) lists every device with its
+chip, test status and notes. Lenovo Legion Y700 tablets are in testing, see the
+[Lenovo page](devices/lenovo.md). Most testing is done by the community.
 
-## Explore
+## What is included
+
+<div class="bento" markdown>
+
+<div class="bento__card bento__card--2" markdown>
+<span class="bento__icon">:material-steam:</span>
+
+**Game Mode and desktop**
+{ .bento__title }
+
+Game Mode, the Steam client and a KDE desktop, all running natively on ARM.
+</div>
+
+<div class="bento__card" markdown>
+<span class="bento__icon">:material-gamepad-variant-outline:</span>
+
+**Controller**
+{ .bento__title }
+
+Appears to Steam as a Steam Deck pad. Decky and the performance overlay are included.
+</div>
+
+<div class="bento__card" markdown>
+<span class="bento__icon">:material-package-variant-closed:</span>
+
+**Zaviya Loadout**
+{ .bento__title }
+
+The built-in app store. It counts the library per system and installs a starter set chosen for the chip.
+</div>
+
+<div class="bento__card" markdown>
+<span class="bento__icon">:material-plus-box-multiple-outline:</span>
+
+**Add games from files**
+{ .bento__title }
+
+Windows games, console game files, Linux apps and Android apps join the Steam library with artwork.
+</div>
+
+<div class="bento__card" markdown>
+<span class="bento__icon">:material-store-outline:</span>
+
+**Epic, GOG and Amazon**
+{ .bento__title }
+
+Heroic, built for ARM64, installs the store libraries. Games launch from Steam with Proton.
+</div>
+
+<div class="bento__card" markdown>
+<span class="bento__icon">:material-android:</span>
+
+**Android apps**
+{ .bento__title }
+
+The Play Store is available and each app gets its own title in the library.
+</div>
+
+<div class="bento__card bento__card--2" markdown>
+<span class="bento__icon">:material-chart-timeline-variant-shimmer:</span>
+
+**Frame generation**
+{ .bento__title }
+
+Lossless Scaling frame generation through Decky, in performance mode on Adreno GPUs. lsfg-vk 2.0 includes an ARM64 build for native ARM games.
+</div>
+
+<div class="bento__card bento__card--2" markdown>
+<span class="bento__icon">:material-monitor-multiple:</span>
+
+**Dual screen**
+{ .bento__title }
+
+On the AYN Thor and AYANEO Pocket DS the bottom screen carries a launcher, game tools, a dashboard with themes, and a trackpad with swipe typing.
+</div>
+
+<div class="bento__card" markdown>
+<span class="bento__icon">:material-cast-connected:</span>
+
+**Remote Play and docking**
+{ .bento__title }
+
+Steam Remote Play with hardware decoding and optional PyroWave. Game Mode also runs on an external monitor or dock, with sound.
+</div>
+
+<div class="bento__card" markdown>
+<span class="bento__icon">:material-layers-triple-outline:</span>
+
+**Tuned base system**
+{ .bento__title }
+
+Services that fail on a handheld are off, the interface runs on the fast cores and the GPU clocks up under load.
+</div>
+
+<div class="bento__card" markdown>
+<span class="bento__icon">:material-sleep:</span>
+
+**Sleep and power**
+{ .bento__title }
+
+Sleep works on every supported chip, fan curves are quiet and the device powers off cleanly before the battery runs flat.
+</div>
+
+<div class="bento__card" markdown>
+<span class="bento__icon">:material-harddisk:</span>
+
+**Dual boot with Android**
+{ .bento__title }
+
+Runs from a microSD card, or installs to internal storage next to Android. The OpenABL menu chooses at power-on.
+</div>
+
+<div class="bento__card bento__card--3" markdown>
+<span class="bento__icon">:material-update:</span>
+
+**Updates and rollback**
+{ .bento__title }
+
+Updates arrive through Settings > System without reflashing. They are signed and verified, and an interrupted update rolls back on the next boot.
+</div>
+
+</div>
+
+## Install in three steps
+
+<ol class="z-steps">
+  <li><strong>Flash the image</strong><span>Write the image for the device's chip to a microSD card (32 GB or larger).</span></li>
+  <li><strong>Flash OpenABL</strong><span>Install the boot menu. Back up the stock ABL first.</span></li>
+  <li><strong>Boot Zaviya</strong><span>Hold Volume Down at power-on, choose the device, set the boot mode to Linux and select START. The first boot takes a few minutes.</span></li>
+</ol>
+
+The [install guide](getting-started/install.md) covers every step, and each chip
+has its own image on [Releases](downloads.md). Tablets do not use OpenABL, see
+the [Lenovo page](devices/lenovo.md).
+
+## Community
 
 <div class="grid cards" markdown>
 
--   :material-download-box-outline:{ .gold } **[Install](getting-started/index.md)**
+-   :fontawesome-brands-discord:{ .gold } **[Community](project/community.md)**
 
-    Requirements, flashing the image and OpenABL, and installing to internal storage.
+    Discord, issue reports, device testing and credits.
+    [Join the Discord](https://discord.gg/e2Cn85uQh9) or open an issue on
+    [GitHub](https://github.com/hashtagbasit/Zaviya).
 
--   :material-gamepad-variant-outline:{ .gold } **[Using Zaviya](using/index.md)**
+-   :material-lifebuoy:{ .gold } **[Support the project](project/community.md)**
 
-    Loadout, emulation, PC games, Android apps, frame generation and updates.
-
--   :material-lifebuoy:{ .gold } **[Troubleshooting](help/troubleshooting.md)**
-
-    Debug logs, common problems, known issues and the FAQ.
-
--   :material-forum-outline:{ .gold } **[Community](project/community.md)**
-
-    Discord, issue reports, device testing, support and credits.
+    Support links are on the community page: [Ko-fi](https://ko-fi.com/aimalb)
+    and [PayPal](https://paypal.me/Basit2000).
 
 </div>

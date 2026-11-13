@@ -1,42 +1,7 @@
 # Supported devices
 
 Zaviya ships one image per chip. The device is chosen in the OpenABL menu on
-first boot, and the system configures itself for it. Select a maker below for
-its devices, chips and notes.
-
-## By maker
-
-<div class="grid cards" markdown>
-
--   [**AYANEO**](ayaneo.md)
-
-    Pocket ACE, DMG, DS, EVO, S 1K, S 2K, S2, S2 Pro and MICRO 2 (Beta)
-
--   [**AYN**](ayn.md)
-
-    Odin 2, Odin 2 Mini, Odin 2 Portal, Thor, Thor Lite (Beta) and Odin 3
-
--   [**KONKR**](konkr.md)
-
-    Pocket FIT and Pocket FIT Elite
-
--   [**MANGMI**](mangmi.md)
-
-    Air Y Pro and Pocket Max (Beta)
-
--   [**Retroid**](retroid.md)
-
-    Pocket 5, Flip 2, Mini and Mini V2 (all Beta), Pocket 6 and Nova
-
--   [**Lenovo**](lenovo.md) · In testing
-
-    Legion Y700 Gen 3, Gen 4 and Gen 5
-
--   [**REDMAGIC**](redmagic.md)
-
-    REDMAGIC 6, built from source
-
-</div>
+first boot, and the system configures itself for it.
 
 ## By chip
 
@@ -47,7 +12,10 @@ its devices, chips and notes.
 | Snapdragon 8 Gen 2 | Stable | AYN Odin 2 / Mini / Portal / Thor, AYANEO Pocket ACE / DMG / DS / EVO / S 1K / S 2K, Retroid Pocket 6 / Nova |
 | Snapdragon 865 | Beta | Retroid Pocket 5 / Flip 2 / Mini / Mini V2, AYN Thor Lite, MANGMI Air Y Pro / Pocket Max, AYANEO Pocket MICRO 2 |
 
-The image for each chip is listed on [Downloads](../downloads.md).
+The image for each chip is listed on [Releases](../downloads.md).
+
+The Lenovo Legion Y700 tablets are in testing, see the [Lenovo page](lenovo.md).
+The REDMAGIC 6 is built from source, see [REDMAGIC](redmagic.md).
 
 ## Reading the status columns
 

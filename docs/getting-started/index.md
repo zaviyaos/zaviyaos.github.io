@@ -21,18 +21,28 @@ the device. Android stays on the device throughout.
 |---|---|
 | Device | A handheld on the [supported devices](../devices/index.md) list |
 | microSD card | 32 GB or larger, A2 speed is best |
-| Computer | Runs a flashing tool such as [balenaEtcher](https://etcher.balena.io/) or [Rufus](https://rufus.ie/), and 7-Zip, WinRAR, Keka or The Unarchiver for `.7z` images |
-| Image | The image for the device's chip, from [Downloads](../downloads.md) |
+| Computer | Runs a flashing tool that reads `.img.zst` files, such as [Raspberry Pi Imager](https://www.raspberrypi.com/software/) or [Rufus](https://rufus.ie/) 4.7 or newer |
+| Image | The image for the device's chip, from [Releases](../downloads.md) |
 
 ## Installation path
 
 1. [Flash to a microSD card](install.md). Write the image for the device's chip
    and boot it from the OpenABL menu.
-2. [Flash OpenABL](abl.md). Back up the stock ABL, then install the boot menu.
-   This is needed once per device.
+2. [Flash OpenABL](abl.md). Back up the stock ABL, then install the boot menu,
+   either with the [OpenABL Installer](https://github.com/OpenHandheldCollective/OpenABL-Android-Installer/releases/latest)
+   app in Android or with the scripts in the image. This is needed once per device.
 3. [Install to internal storage](internal-storage.md). Optional, and available on
    handhelds with 8 Elite, 8 Gen 3 and 8 Gen 2 chips. It boots without the card and
    erases Android's user data.
+
+!!! tip "Zaviya Installer for Android (beta)"
+
+    An Android app that installs Zaviya from the handheld without a PC. It
+    downloads the image for the chip, writes it to the microSD card, backs up
+    the stock ABL and flashes OpenABL.
+    [Download the APK](https://github.com/hashtagbasit/Zaviya/releases/download/v1.5/zaviya-installer-0.1.0-beta.apk).
+    It is in beta, so please [report](https://github.com/hashtagbasit/Zaviya/issues)
+    anything that goes wrong, with the device model.
 
 ## What OpenABL does
 

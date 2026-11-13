@@ -7,6 +7,12 @@ Updates are signed and checked before anything changes, and only install on the
 devices they were made for. If one gets interrupted, it rolls back on the next
 boot.
 
+!!! important "1.5 is a fresh install"
+
+    Check for updates does not offer 1.5. Devices on 1.4 or older flash the
+    1.5 image from [Releases](../downloads.md). Back up anything needed from
+    Desktop Mode first. Games on a separate microSD card are not touched.
+
 ## Steps
 
 1. Open **Settings > System**.
