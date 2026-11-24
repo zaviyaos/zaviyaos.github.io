@@ -392,3 +392,55 @@ html { scroll-padding-top: 4.4rem; }
 @media (min-width: 76.25em) {
   .md-main:has(.hero, .rel-app) .md-sidebar--primary { display: none; }
 }
+
+/* fund a device page */
+.fund-total { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 1.6rem 0 1rem;
+  padding: 1.1rem 1.2rem; border: 1px solid var(--z-line); border-radius: 12px; background: var(--z-surface); }
+.md-typeset .fund-total__label { margin: 0 0 .2rem; color: var(--z-muted); font-size: .62rem; font-weight: 600; }
+.md-typeset .fund-total__num { margin: 0; font-family: var(--z-head); font-size: 1.25rem; font-weight: 700;
+  font-variant-numeric: tabular-nums; }
+.md-typeset .fund-total__num span { color: var(--z-muted); font-family: inherit; font-size: .66rem; font-weight: 500; }
+.md-typeset .fund-total__updated { grid-column: 1 / -1; margin: 0; color: var(--z-muted); font-size: .62rem; }
+.md-typeset .fund-give { display: flex; flex-wrap: wrap; gap: .6rem; margin: 0 0 2rem; }
+.md-typeset .fund-give .md-button { margin: 0; }
+.fund-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 1rem 0 2rem; }
+.fund-card { display: flex; flex-direction: column; padding: 1rem 1.05rem; border: 1px solid var(--z-line);
+  border-radius: 12px; background: var(--z-surface); scroll-margin-top: calc(var(--z-bar) + 1rem); }
+.fund-card[data-status="here"] { border-color: var(--z-gold-line); }
+.fund-card:target { border-color: var(--z-gold); }
+.md-typeset .fund-card__kind { margin: 0 0 .25rem; color: var(--z-muted); font-size: .6rem; font-weight: 600; }
+.md-typeset h3.fund-card__name { margin: 0 0 .45rem; font-size: .92rem; }
+.md-typeset .fund-card__covers { margin: 0 0 .9rem; font-size: .66rem; line-height: 1.55; }
+.fund-bar { height: 6px; overflow: hidden; border-radius: 3px; background: rgba(255, 255, 255, .07); }
+.fund-bar span { display: block; height: 100%; border-radius: 3px; background: var(--z-gold); }
+.md-typeset .fund-nums { display: flex; justify-content: space-between; gap: .5rem; margin: .5rem 0 0;
+  font-size: .68rem; font-variant-numeric: tabular-nums; }
+.md-typeset .fund-nums b { font-weight: 400; }
+.md-typeset .fund-nums span { color: var(--z-muted); }
+.md-typeset .fund-pool-note { margin: .25rem 0 0; color: var(--z-muted); font-size: .6rem; }
+.md-typeset ol.fund-steps { display: flex; gap: .3rem; margin: .9rem 0 .8rem; padding: 0; list-style: none; }
+.md-typeset ol.fund-steps li { flex: 1; margin: 0; padding-top: .35rem; border-top: 2px solid rgba(255, 255, 255, .1);
+  color: var(--z-muted); font-size: .56rem; line-height: 1.3; }
+.md-typeset ol.fund-steps li.done { border-color: var(--z-gold-line); }
+.md-typeset ol.fund-steps li.now { border-color: var(--z-gold); color: var(--z-text); font-weight: 600; }
+.md-typeset details.fund-why { margin: 0 0 .7rem; border: 0; border-top: 1px solid var(--z-line); border-radius: 0;
+  background: none; box-shadow: none; font-size: .66rem; }
+.md-typeset details.fund-why > summary { padding: .55rem 0 0; color: var(--z-gold-light); font-weight: 500; cursor: pointer; }
+.md-typeset details.fund-why > summary::before, .md-typeset details.fund-why > summary::after { display: none; }
+.md-typeset details.fund-why ul { margin: .5rem 0 .4rem 1rem; }
+.md-typeset details.fund-why li { margin-bottom: .3rem; line-height: 1.5; }
+.md-typeset .fund-price { margin: 0; color: var(--z-muted); font-size: .6rem; }
+.md-typeset .fund-tag { margin: auto 0 0; padding-top: .3rem; color: var(--z-muted); font-size: .6rem; }
+.md-typeset ul.fund-have li { font-size: .7rem; }
+@media (max-width: 1000px) { .fund-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) {
+  .fund-grid, .fund-total { grid-template-columns: minmax(0, 1fr); }
+}
+
+.md-typeset a.fund-link { color: inherit; text-decoration: none; transition: border-color .15s; }
+.md-typeset a.fund-link:hover { border-color: var(--z-gold-line); }
+.md-typeset a.fund-link .fund-nums { justify-content: flex-start; }
+.md-typeset .fund-updated { color: var(--z-muted); font-size: .64rem; }
+.md-typeset .fund-back { margin: 0 0 1rem; font-size: .7rem; }
+.md-typeset h2.fund-dev__name { margin: 0 0 .4rem; }
+.fund-dev { max-width: 32rem; margin: 1.2rem 0 1.6rem; }

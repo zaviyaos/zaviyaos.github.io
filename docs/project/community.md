@@ -31,7 +31,8 @@ supported or not, is the fastest way to get it supported. Contact the project on
 
 ## Support development
 
-Donations fund test hardware.
+Donations fund test hardware. [Development units](fund.md) shows each device I'm
+saving for and how much it still needs.
 
 [:simple-kofi: Ko-fi](https://ko-fi.com/aimalb){ .md-button .md-button--primary }
 [:fontawesome-brands-paypal: PayPal](https://paypal.me/Basit2000){ .md-button }
