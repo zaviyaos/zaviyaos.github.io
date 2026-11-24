@@ -24,10 +24,12 @@ message.
 ## Details
 
 - No code means it goes to whichever device is closest.
-- When a device is covered I order it and post the receipt on
+- When a device is covered I buy it and share it on
   [Discord](https://discord.gg/e2Cn85uQh9).
-- I update the numbers by hand, each page shows when I last did.
-- Names and amounts aren't shown here.
+- I update the numbers manually, so they can be a few days behind. The date
+  under the devices shows when I last did.
+- Supporters' names and amounts aren't shared here. If you want yours shown,
+  DM me on [Discord](https://discord.gg/e2Cn85uQh9).
 
 If you have a spare device you can send for long term development, message me on
 [Discord](https://discord.gg/e2Cn85uQh9).
